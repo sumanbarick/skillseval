@@ -7,6 +7,7 @@ var gulp  = require('gulp'),
 //Now requiring custom modules
 var dataProcessor = require('./tools/node-tools/data-processor/process');
  
+//Process script files
 gulp.task('concatScripts', function() {
   return gulp.src([
         'www/scripts/app.js',
@@ -22,6 +23,8 @@ gulp.task('concatScripts', function() {
     .pipe(gulp.dest('www/dist/js/'));
 });
 
+
+//Create template.js
 gulp.task('createTemplateCache', function () {
   return gulp.src(['www/**/*.html'])
     .pipe(templateCache({
@@ -31,8 +34,36 @@ gulp.task('createTemplateCache', function () {
 });
 
 
+// Copy all static assets
+gulp.task('copyAssets', function() {
+    gulp.src('www/configs/**')
+    .pipe(gulp.dest('www/dist/configs'));
+
+    gulp.src('www/css/**')
+    .pipe(gulp.dest('www/dist/css'));
+
+    gulp.src('www/favicon/**')
+    .pipe(gulp.dest('www/dist/favicon'));
+
+    gulp.src('www/images/**')
+    .pipe(gulp.dest('www/dist/images'));
+
+    gulp.src('www/lib/**')
+    .pipe(gulp.dest('www/dist/lib'));
+
+    gulp.src('www/data/**')
+    .pipe(gulp.dest('www/dist/data'));
+
+    gulp.src(['www/scripts/**', '!www/scripts/app.js', '!www/scripts/router.js'])
+    .pipe(gulp.dest('www/dist/scripts'));
+
+    gulp.src('www/index.html')
+    .pipe(gulp.dest('www/dist'));
+});
+
+
 // create a default task and just log a message
-gulp.task('default', ['concatScripts', 'createTemplateCache'], function () {
+gulp.task('default', ['concatScripts', 'createTemplateCache', 'copyAssets'], function () {
     dataProcessor.start();
     console.log("Gulping Done...");
 });
