@@ -30,7 +30,7 @@
 			}
 			//else get webRoot
 			else {
-				root = webRoot || $window.location.origin;
+				root = webRoot || $window.location.href.substr(0, $window.location.href.indexOf('#'));
 			}
 
 			return root;

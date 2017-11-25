@@ -45,6 +45,9 @@ gulp.task('copyAssets', function() {
     gulp.src('www/favicon/**')
     .pipe(gulp.dest('www/dist/favicon'));
 
+    gulp.src('www/fonts/**')
+    .pipe(gulp.dest('www/dist/fonts'));
+
     gulp.src('www/images/**')
     .pipe(gulp.dest('www/dist/images'));
 
