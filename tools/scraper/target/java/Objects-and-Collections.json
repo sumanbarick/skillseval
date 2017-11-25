@@ -1,0 +1,122 @@
+[
+    {
+        "q": "Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?", 
+        "options": [
+            "TreeMap", 
+            "HashMap", 
+            "LinkedHashMap", 
+            "The answer depends on the implementation of the existing instance."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?", 
+        "options": [
+            "java.lang.String", 
+            "java.lang.Double", 
+            "java.lang.StringBuffer", 
+            "java.lang.Character"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?", 
+        "options": [
+            "java.util.HashSet", 
+            "java.util.LinkedHashSet", 
+            "java.util.List", 
+            "java.util.ArrayList"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?", 
+        "options": [
+            "java.util.Map", 
+            "java.util.Set", 
+            "java.util.List", 
+            "java.util.Collection"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which interface does java.util.Hashtable implement?", 
+        "options": [
+            "Java.util.Map", 
+            "Java.util.List", 
+            "Java.util.HashTable", 
+            "Java.util.Collection"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which interface provides the capability to store objects using a key-value pair?", 
+        "options": [
+            "Java.util.Map", 
+            "Java.util.Set", 
+            "Java.util.List", 
+            "Java.util.Collection"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO (first-in, first-out) sequence?", 
+        "options": [
+            "java.util.ArrayList", 
+            "java.util.LinkedHashMap", 
+            "java.util.HashMap", 
+            "java.util.TreeMap"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which collection class allows you to access its elements by associating a key with an element's value, and provides synchronization?", 
+        "options": [
+            "java.util.SortedMap", 
+            "java.util.TreeMap", 
+            "java.util.TreeSet", 
+            "java.util.Hashtable"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which is valid declaration of a float?", 
+        "options": [
+            "float f = 1F;", 
+            "float f = 1.0;", 
+            "float f = \"1\";", 
+            "float f = 1.0d;"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "/* Missing Statement ? */\npublic class foo \n{\n    public static void main(String[]args)throws Exception \n    {\n        java.io.PrintWriter out = new java.io.PrintWriter(); \n        new java.io.OutputStreamWriter(System.out,true); \n        out.println(\"Hello\"); \n    } \n}\n\nWhat line of code should replace the missing statement to make this program compile?", 
+        "options": [
+            "No statement required.", 
+            "import java.io.*;", 
+            "include java.io.*;", 
+            "import java.io.PrintWriter;"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What is the numerical range of char?", 
+        "options": [
+            "0 to 32767", 
+            "0 to 65535", 
+            "-256 to 255", 
+            "-32768 to 32767"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following are Java reserved words?\n\nrun\nimport\ndefault\nimplement\n", 
+        "options": [
+            "1 and 2", 
+            "2 and 3", 
+            "3 and 4", 
+            "2 and 4"
+        ], 
+        "ans": "B"
+    }
+]

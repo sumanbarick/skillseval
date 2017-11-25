@@ -1,0 +1,32 @@
+[
+    {
+        "q": "The keyword used to transfer control from a function back to the calling function is", 
+        "options": [
+            "switch", 
+            "goto", 
+            "go back", 
+            "return"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What is the notation for following functions?\n1.  int f(int a, float b)\n    {\n        /* Some code */\n    }\n\n2.  int f(a, b)\n    int a; float b;\n    {\n        /* Some code */\n    }\n", 
+        "options": [
+            "1. KR Notation 2. ANSI Notation", 
+            "1. Pre ANSI C Notation 2. KR Notation", 
+            "1. ANSI Notation 2. KR Notation", 
+            "1. ANSI Notation 2. Pre ANSI Notation"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "How many times the program will print \"IndiaBIX\" ?\n#include<stdio.h>\n\nint main()\n{\n    printf(\"IndiaBIX\");\n    main();\n    return 0;\n}\n", 
+        "options": [
+            "Infinite times", 
+            "32767 times", 
+            "65535 times", 
+            "Till stack overflows"
+        ], 
+        "ans": "D"
+    }
+]

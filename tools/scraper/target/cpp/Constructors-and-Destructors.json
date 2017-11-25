@@ -1,0 +1,391 @@
+[
+    {
+        "q": "A constructor that accepts __________ parameters is called the default constructor.", 
+        "options": [
+            "one", 
+            "two", 
+            "no", 
+            "three"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What happens when a class with parameterized constructors and having no default constructor is used in a program and we create an object that needs a zero-argument constructor?", 
+        "options": [
+            "Compile-time error.", 
+            "Preprocessing error.", 
+            "Runtime error.", 
+            "Runtime exception."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Can a class have virtual destructor?", 
+        "options": [
+            "Yes", 
+            "No"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Destructor has the same name as the constructor and it is preceded by ______ .", 
+        "options": [
+            "!", 
+            "?", 
+            "~", 
+            "$"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "For automatic objects, constructors and destructors are called each time the objects", 
+        "options": [
+            "enter and leave scope", 
+            "inherit parent class", 
+            "are constructed", 
+            "are destroyed"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which constructor function is designed to copy objects of the same class type?", 
+        "options": [
+            "Create constructor", 
+            "Object constructor", 
+            "Dynamic constructor", 
+            "Copy constructor"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "Constructor has the same name as that of the class.", 
+            "Destructor has the same name as that of the class with a tilde symbol at the beginning.", 
+            "Both A and B.", 
+            "Destructor has the same name as the first member function of the class."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statement is incorrect?", 
+        "options": [
+            "Constructor is a member function of the class.", 
+            "The compiler always provides a zero argument constructor.", 
+            "It is necessary that a constructor in a class should always be public.", 
+            "Both B and C."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "When are the Global objects destroyed?", 
+        "options": [
+            "When the control comes out of the block in which they are being used.", 
+            "When the program terminates.", 
+            "When the control comes out of the function in which they are being used.", 
+            "As soon as local objects die."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Copy constructor must receive its arguments by __________ .", 
+        "options": [
+            "either pass-by-value or pass-by-reference", 
+            "only pass-by-value", 
+            "only pass-by-reference", 
+            "only pass by address"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "A function with the same name as the class, but preceded with a tilde character (~) is called __________ of that class.", 
+        "options": [
+            "constructor", 
+            "destructor", 
+            "function", 
+            "object"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "A union that has no constructor can be initialized with another union of __________ type.", 
+        "options": [
+            "different", 
+            "same", 
+            "virtual", 
+            "class"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following gets called when an object goes out of scope?", 
+        "options": [
+            "constructor", 
+            "destructor", 
+            "main", 
+            "virtual function"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "Destructor destroys only integer data members of the object.", 
+            "Destructor destroys only float data members of the object.", 
+            "Destructor destroys only pointer data members of the object.", 
+            "Destructor destroys the complete object."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "__________ used to make a copy of one class object from another class object of the same class type.", 
+        "options": [
+            "constructor", 
+            "copy constructor", 
+            "destructor", 
+            "default constructor"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Constructors __________ to allow different approaches of object construction.", 
+        "options": [
+            "cannot overloaded", 
+            "can be overloaded", 
+            "can be called", 
+            "can be nested"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "A destructor has the same name as the class in which it is present.", 
+            "A destructor has a different name than the class in which it is present.", 
+            "A destructor always returns an integer.", 
+            "A destructor can be overloaded."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following cannot be declared as virtual?", 
+        "options": [
+            "Constructor", 
+            "Destructor", 
+            "Data Members", 
+            "Both A and C"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "If the copy constructor receives its arguments by value, the copy constructor would", 
+        "options": [
+            "call one-argument constructor of the class", 
+            "work without any problem", 
+            "call itself recursively", 
+            "call zero-argument constructor"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following are NOT provided by the compiler by default?", 
+        "options": [
+            "Zero-argument Constructor", 
+            "Destructor", 
+            "Copy Constructor", 
+            "Copy Destructor"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "It is a __________ error to pass arguments to a destructor.", 
+        "options": [
+            "logical", 
+            "virtual", 
+            "syntax", 
+            "linker"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "If the programmer does not explicitly provide a destructor, then which of the following creates an empty destructor?", 
+        "options": [
+            "Preprocessor", 
+            "Compiler", 
+            "Linker", 
+            "main() function"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "A __________ is a constructor that either has no parameters, or if it has parameters, all the parameters have default values.", 
+        "options": [
+            "default constructor", 
+            "copy constructor", 
+            "Both A and B", 
+            "None of these"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "How many default constructors per class are possible?", 
+        "options": [
+            "Only one", 
+            "Two", 
+            "Three", 
+            "Unlimited"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statement is correct about destructors?", 
+        "options": [
+            "A destructor has void return type.", 
+            "A destructor has integer return type.", 
+            "A destructor has no return type.", 
+            "A destructors return type is always same as that of main()."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "A constructor has the same name as the class in which it is present.", 
+            "A constructor has a different name than the class in which it is present.", 
+            "A constructor always returns an integer.", 
+            "A constructor cannot be overloaded."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following implicitly creates a default constructor when the programmer does not explicitly define at least one constructor for a class?", 
+        "options": [
+            "Preprocessor", 
+            "Linker", 
+            "Loader", 
+            "Compiler"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "A destructor takes __________ arguments.", 
+        "options": [
+            "one", 
+            "two", 
+            "three", 
+            "no"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Destructor calls are made in which order of the corresponding constructor calls?", 
+        "options": [
+            "Reverse order", 
+            "Forward order", 
+            "Depends on how the object is constructed", 
+            "Depends on how many objects are constructed"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following never requires any arguments?", 
+        "options": [
+            "Member function", 
+            "Friend function", 
+            "Default constructor", 
+            "const function"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "A class's __________ is called when an object is destroyed.", 
+        "options": [
+            "constructor", 
+            "destructor", 
+            "assignment function", 
+            "copy constructor"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Destructors __________ for automatic objects if the program terminates with a call to function exit or function abort.", 
+        "options": [
+            "are called", 
+            "are inherited", 
+            "are not called", 
+            "are created"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "A constructor of a derived class can access any public and protected member of the base class.", 
+            "Constructor cannot be inherited but the derived class can call them.", 
+            "A constructor of a derived class cannot access any public and protected member of the base class.", 
+            "Both A and B."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements are correct?", 
+        "options": [
+            "Constructor is always called explicitly.", 
+            "Constructor is called either implicitly or explicitly, whereas destructor is always called implicitly.", 
+            "Destructor is always called explicitly.", 
+            "Constructor and destructor functions are not called at all as they are always inline."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "How many times a constructor is called in the life-time of an object?", 
+        "options": [
+            "Only once", 
+            "Twice", 
+            "Thrice", 
+            "Depends on the way of creation of object"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following gets called when an object is being created?", 
+        "options": [
+            "constructor", 
+            "virtual function", 
+            "destructor", 
+            "main"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "To ensure that every object in the array receives a destructor call, always delete memory allocated as an array with operator __________ .", 
+        "options": [
+            "destructor", 
+            "delete", 
+            "delete[]", 
+            "kill[]", 
+            "free[]"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statement is correct about constructors?", 
+        "options": [
+            "A constructor has a return type.", 
+            "A constructor cannot contain a function call.", 
+            "A constructor has no return type.", 
+            "A constructor has a void return type."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statement is correct whenever an object goes out of scope?", 
+        "options": [
+            "The default constructor of the object is called.", 
+            "The parameterized destructor is called.", 
+            "The default destructor of the object is called.", 
+            "None of the above."
+        ], 
+        "ans": "C"
+    }
+]

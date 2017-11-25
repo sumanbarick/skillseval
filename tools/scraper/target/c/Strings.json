@@ -1,0 +1,72 @@
+[
+    {
+        "q": "Which of the following function sets first n characters of a string to a given character?", 
+        "options": [
+            "strinit()", 
+            "strnset()", 
+            "strset()", 
+            "strcset()"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "If the two strings are identical, then strcmp() function returns", 
+        "options": [
+            "-1", 
+            "1", 
+            "0", 
+            "Yes"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "How will you print \\n on the screen?", 
+        "options": [
+            "printf(\"\\n\");", 
+            "echo \"\\\\n\";", 
+            "printf('\\n');", 
+            "printf(\"\\\\n\");"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "The library function used to find the last occurrence of a character in a string is", 
+        "options": [
+            "strnstr()", 
+            "laststr()", 
+            "strrchr()", 
+            "strstr()"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following function is used to find the first occurrence of a given string in another string?", 
+        "options": [
+            "strchr()", 
+            "strrchr()", 
+            "strstr()", 
+            "strnset()"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following function is more appropriate for reading in a multi-word string?", 
+        "options": [
+            "printf();", 
+            "scanf();", 
+            "gets();", 
+            "puts();"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following function is correct that finds the length of a string?", 
+        "options": [
+            "int xstrlen(char *s)\n{\n    int length=0;\n    while(*s!='\\0')\n    {    length++; s++; }\n    return (length);\n}\n", 
+            "int xstrlen(char s)\n{\n    int length=0;\n    while(*s!='\\0')\n        length++; s++;\n    return (length);\n}\n", 
+            "int xstrlen(char *s)\r\n{\r\n    int length=0;\r\n    while(*s!='\\0')\r\n        length++;\r\n    return (length);\r\n}\r\n", 
+            "int xstrlen(char *s)\r\n{\r\n    int length=0;\r\n    while(*s!='\\0')\r\n        s++;\r\n    return (length);\r\n}\r\n"
+        ], 
+        "ans": "A"
+    }
+]

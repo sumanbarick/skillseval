@@ -1,0 +1,78 @@
+[
+    {
+        "q": "What will the function rewind() do?", 
+        "options": [
+            "Reposition the file pointer to a character reverse.", 
+            "Reposition the file pointer stream to end of file.", 
+            "Reposition the file pointer to begining of that line.", 
+            "Reposition the file pointer to begining of file."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Input/output function prototypes and macros are defined in which header file?", 
+        "options": [
+            "conio.h", 
+            "stdlib.h", 
+            "stdio.h", 
+            "dos.h"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which standard library function will you use to find the last occurance of a character in a string in C?", 
+        "options": [
+            "strnchar()", 
+            "strchar()", 
+            "strrchar()", 
+            "strrchr()"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What is stderr ?", 
+        "options": [
+            "standard error", 
+            "standard error types", 
+            "standard error streams", 
+            "standard error definitions"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Does there any function exist to convert the int or float to a string?", 
+        "options": [
+            "Yes", 
+            "No"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What is the purpose of fflush() function.", 
+        "options": [
+            "flushes all streams and specified streams.", 
+            "flushes only specified stream.", 
+            "flushes input/output buffer.", 
+            "flushes file buffer."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Can you use the fprintf() to display the output on the screen?", 
+        "options": [
+            "Yes", 
+            "No"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What will the function randomize() do in Turbo C under DOS?", 
+        "options": [
+            "returns a random number.", 
+            "returns a random number generator in the specified range.", 
+            "returns a random number generator with a random value based on time.", 
+            "return a random number with a given seed value."
+        ], 
+        "ans": "C"
+    }
+]

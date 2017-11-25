@@ -1,0 +1,32 @@
+[
+    {
+        "q": "The maximum combined length of the command-line arguments including the spaces between adjacent arguments is", 
+        "options": [
+            "128 characters", 
+            "256 characters", 
+            "67 characters", 
+            "It may vary from one operating system to another"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "According to ANSI specifications which is the correct way of declaring main when it receives command-line arguments?", 
+        "options": [
+            "int main(int argc, char *argv[])", 
+            "int main(argc, argv)\nint argc; char *argv;\n", 
+            "int main()\n{\n    int argc; char *argv;\n}\n", 
+            "None of above"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What do the 'c' and 'v' in argv stands for?", 
+        "options": [
+            "'c' means argument control 'v' means argument vector", 
+            "'c' means argument count 'v' means argument vertex", 
+            "'c' means argument count 'v' means argument vector", 
+            "'c' means argument configuration 'v' means argument visibility"
+        ], 
+        "ans": "C"
+    }
+]

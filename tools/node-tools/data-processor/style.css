@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+#report-table tr td {    
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    word-break: break-all;
+}

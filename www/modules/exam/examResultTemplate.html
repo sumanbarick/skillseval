@@ -1,0 +1,118 @@
+<div class="col-xs-12">
+
+    <!-- Exam Statistics Panel -->
+    <div class="col-xs-12 col-sm-6 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading collapse-header">
+                Result
+            </div>
+            <div class="panel-body collapse-body">
+                <div class="col-xs-10 col-sm-9 col-md-7">
+                    Total Questions: 
+                </div>
+                <div class="col-xs-2 col-sm-3 col-md-5">
+                    {{vm.currentExam.result.totalQ}}
+                </div>
+
+                <div class="col-xs-10 col-sm-9 col-md-7">
+                    Questions Skipped: 
+                </div>
+                <div class="col-xs-2 col-sm-3 col-md-5">
+                    {{vm.currentExam.result.skipped}}
+                </div>
+
+
+                <div class="col-xs-10 col-sm-9 col-md-7">
+                    Number of Correct Answers: 
+                </div>
+                <div class="col-xs-2 col-sm-3 col-md-5">
+                    {{vm.currentExam.result.correct}}
+                </div>
+
+                <div class="col-xs-10 col-sm-9 col-md-7">
+                    Number of Incorrect Answers: 
+                </div>
+                <div class="col-xs-2 col-sm-3 col-md-5">
+                    {{vm.wrongQAs.length}}
+                </div>
+
+                <div class="col-xs-10 col-sm-9 col-md-7">
+                    Total Time: 
+                </div>
+                <div class="col-xs-2 col-sm-3 col-md-5">
+                    {{vm.currentExam.result.totalTime || '-'}}
+                </div>
+
+                <div class="col-xs-10 col-sm-9 col-md-7">
+                    Time Taken: 
+                </div>
+                <div class="col-xs-2 col-sm-3 col-md-5">
+                    {{vm.currentExam.result.timeTaken || '-'}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ******************************************************* -->
+
+
+    <!-- Marksheet and Certificate Link Panel -->
+    <div class="col-xs-12 col-sm-6 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading collapse-header">
+                Marksheet and Certificate
+            </div>
+            <div class="panel-body collapse-body">
+
+                <div data-ng-show="!vm.certificateLink">
+                    <div class="col-xs-12">
+                        <label>Please enter your name in the box below and then click on "Generate Link" to get the link to your marksheet and certificate</label>
+                    </div>
+                    <div class="col-xs-12 margin-top-15">
+                        <input type="text" data-ng-model="vm.nameOfUser" class="form-control" placeholder="Enter your name" />
+                        <button type="button" class="btn btn-primary col-xs-12 margin-top-15" data-ng-disable="!vm.nameOfUser.trim()" data-ng-click="vm.generateCertificateLink()">Generate Link</button>
+                    </div>
+                </div>
+                
+                <div data-ng-show="!!vm.certificateLink">
+                    <div class="col-xs-12">
+                        <p>
+                        You can enter this code anytime in our "Marksheets and Certificates" section to view your marksheet and certificate for this exam.
+                        </p>
+                        <p>
+                        Please copy this code and keep it somewhere safe. This codes are currently not saved on our server. So, if you lose it, it will be lost forever and you will not be able to access your marksheet or certificate for this exam.
+                        </p>
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="text" class="form-control" data-ng-model="vm.certificateLink"/>
+                    </div>
+                    <div class="col-xs-12">
+                        <a href="javascript:void(0);" data-ng-click="vm.showCertificate()">Show certificate &gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ******************************************************* -->
+
+
+
+    <!-- The Detailed QA -->
+    <div class="col-xs-12">
+        <div class="qa-panel panel panel-primary" data-ng-repeat="qa in vm.wrongQAs">
+            <div class="panel-heading collapse-header">
+                <div class="panel-title">
+                    <pre><b>{{"[Q " + ($index+1) + "] "}}</b>{{qa.q.trim()}}</pre>
+                </div>
+            </div>
+            <div class="panel-body options-container normal-font collapse-body">
+                <label>You chose : </label>
+                <label>{{qa.incorrectAns}}</label>
+                <br/>
+                <label>Correct Answer : </label>
+                <label>{{qa.correctAns}}</label>
+            </div>
+        </div>
+    </div>
+
+</div>
+<a href="#!/" type="btn btn-default">Back</a>

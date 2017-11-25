@@ -1,0 +1,164 @@
+[
+    {
+        "q": "The [Serializable()] attribute gets inspected at", 
+        "options": [
+            "Compile-time", 
+            "Run-time", 
+            "Design-time", 
+            "Linking-time", 
+            "None of the above"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following are correct ways to specify the targets for a custom attribute?", 
+        "options": [
+            "By applying AttributeUsage to the custom attribute's class definition.", 
+            "By applying UsageAttribute to the custom attribute's class definition.", 
+            "Once an attribute is declared it applies to all the targets.", 
+            "By applying AttributeUsageAttribute to the custom attribute's class definition.", 
+            "None of the above."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following are correct ways to pass a parameter to an attribute?\nBy value\nBy reference\nBy address\nBy position\nBy name\n", 
+        "options": [
+            "1, 2", 
+            "1, 2, 3", 
+            "4, 5", 
+            "All of the above"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements are correct about inspecting an attribute in C#.NET?\nAn attribute can be inspected at link-time.\nAn attribute can be inspected at compile-time.\nAn attribute can be inspected at run-time.\nAn attribute can be inspected at design-time.\n", 
+        "options": [
+            "1, 2", 
+            "3, 4", 
+            "1, 3, 4", 
+            "All of the above", 
+            "None of the above"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following is correct ways of applying an attribute?", 
+        "options": [
+            "[WebService (Name = \"IndiaBIX\", Description = \"BIX WebService\")] \nclass AuthenticationService: WebService\n{ /* .... */}", 
+            "<WebService ( Name : \"IndiaBIX\", Description : \"BIX WebService\" )> \nclass AuthenticationService: inherits WebService\n{ /* .... */}", 
+            "<WebService ( Name = \"IndiaBIX\", Description = \"BIX WebService\" )> \nclass AuthenticationService: extends WebService\n{ /* .... */}", 
+            "[WebService ( Name := \"IndiaBIX\", Description := \"BIX WebService\")] \nclass AuthenticationService: inherits WebService\n{ /* .... */}"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements are correct about Attributes used in C#.NET?", 
+        "options": [
+            "If there is a custom attribute BugFixAttribute then the compiler will look ONLY for the BugFix attribute in the code that uses this attribute.", 
+            "To create a custom attribute we need to create a custom attribute structure and derive it from System.Attribute.", 
+            "To create a custom attribute we need to create a class and implement IAttribute interface in it.", 
+            "If a BugFixAttribute is to receive three parameters then the BugFixAttribute class should implement a zero-argument constructor.", 
+            "The CLR can change the behaviour of the code depending upon the attributes applied to it."
+        ], 
+        "ans": "E"
+    }, 
+    {
+        "q": "Which of the following forms of applying an attribute is correct?", 
+        "options": [
+            "< Serializable() > class sample\n{ /* ... */ }", 
+            "(Serializable()) class sample\n{ /* ... */ }", 
+            "[ Serializable() ] class sample\n{ /* ... */ }", 
+            "Serializablef) class sample\n{ /* ... */ }", 
+            "None of the above"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements are correct about Attributes in C#.NET?\nOn compiling a C#.NET program the attibutes applied are recorded in the metadata of the assembly.\nOn compilation all the attribute's tags are deleted from the program.\nIt is not possible to create custom attributes..\nThe attributes applied can be read from an assembly using Reflection class.\nAn attribute can have parameters.\n", 
+        "options": [
+            "1 and 2 only", 
+            "2 and 4 only", 
+            "1, 4 and 5 only", 
+            "All of the above", 
+            "None of the above"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following correctly describes the contents of the filename AssemblyInfo.cs?", 
+        "options": [
+            "It contains method-level attributes.", 
+            "It contains class-level attributes.", 
+            "It contains assembly-level attributes.", 
+            "It contains structure-level attributes.", 
+            "It contains namespace-level attributes."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "It possible to create a custom attribute that can be applied only to specific programming element(s) like ____ .", 
+        "options": [
+            "Classes", 
+            "Methods", 
+            "Classes and Methods", 
+            "Classes, Methods and Member-Variables"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following CANNOT be a target for a custom attribute?", 
+        "options": [
+            "Enum", 
+            "Event", 
+            "Delegate", 
+            "Interface", 
+            "Namespace"
+        ], 
+        "ans": "E"
+    }, 
+    {
+        "q": "Once applied which of the following CANNOT inspect the applied attribute?", 
+        "options": [
+            "CLR", 
+            "Linker", 
+            "ASP.NET Runtime", 
+            "Visual Studio.NET", 
+            "Language compilers"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following is the correct way to apply an attribute to an Assembly?", 
+        "options": [
+            "[ AssemblyDescription(\"DCube Component Library\") ]", 
+            "[ assembly : AssemblyDescription(\"DCube Component Library\") ]", 
+            "[ Assemblylnfo : AssemblyDescription(\"DCube Component Library\") ]", 
+            "< Assembly: AssemblyDescription(\"DCube Component Library\") >", 
+            "(Assembly: AssemblyDescription(\"DCube Component Library\"))"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following is the correct way of applying the custom attribute called Tested which receives two-arguments - name of the tester and the testgrade?\nCustom attribute cannot be applied to an assembly.\n[assembly: Tested(\"Sachin\", testgrade.Good)]\n[Tested(\"Virat\", testgrade.Excellent)] class customer { /* .... */ }\nCustom attribute cannot be applied to a method.\nCustom attribute cannot be applied to a class.\n ", 
+        "options": [
+            "1 only", 
+            "1, 5", 
+            "2, 3", 
+            "4, 5", 
+            "None of the above"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Attributes can be applied to \nMethod \nClass\nAssembly\nNamespace\nEnum\n", 
+        "options": [
+            "1 and 2 only", 
+            "1, 2 and 3", 
+            "4 and 5 only", 
+            "All of the above", 
+            "None of the above"
+        ], 
+        "ans": "B"
+    }
+]

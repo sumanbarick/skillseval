@@ -1,0 +1,82 @@
+[
+    {
+        "q": "void start() {  \n    A a = new A(); \n    B b = new B(); \n    a.s(b);  \n    b = null; /* Line 5 */\n    a = null;  /* Line 6 */\n    System.out.println(\"start completed\"); /* Line 7 */\n} \n\nWhen is the B object, created in line 3, eligible for garbage collection?", 
+        "options": [
+            "after line 5", 
+            "after line 6", 
+            "after line 7", 
+            "There is no way to be absolutely certain."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "class HappyGarbage01 \n{ \n    public static void main(String args[]) \n    {\n        HappyGarbage01 h = new HappyGarbage01(); \n        h.methodA(); /* Line 6 */\n    } \n    Object methodA() \n    {\n        Object obj1 = new Object(); \n        Object [] obj2 = new Object[1]; \n        obj2[0] = obj1; \n        obj1 = null; \n        return obj2[0]; \n    } \n}\n\nWhere will be the most chance of the garbage collector being invoked?", 
+        "options": [
+            "After line 9", 
+            "After line 10", 
+            "After line 11", 
+            "Garbage collector never invoked in methodA()"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "class Bar { } \nclass Test \n{  \n    Bar doBar() \n    {\n        Bar b = new Bar(); /* Line 6 */\n        return b; /* Line 7 */\n    } \n    public static void main (String args[]) \n    { \n        Test t = new Test();  /* Line 11 */\n        Bar newBar = t.doBar();  /* Line 12 */\n        System.out.println(\"newBar\"); \n        newBar = new Bar(); /* Line 14 */\n        System.out.println(\"finishing\"); /* Line 15 */\n    } \n}\n\nAt what point is the Bar object, created on line 6, eligible for garbage collection?", 
+        "options": [
+            "after line 12", 
+            "after line 14", 
+            "after line 7, when doBar() completes", 
+            "after line 15, when main() completes"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "class Test \n{  \n    private Demo d; \n    void start() \n    {  \n        d = new Demo(); \n        this.takeDemo(d); /* Line 7 */\n    } /* Line 8 */\n    void takeDemo(Demo demo) \n    { \n        demo = null;  \n        demo = new Demo(); \n    } \n}\n\nWhen is the Demo object eligible for garbage collection?", 
+        "options": [
+            "After line 7", 
+            "After line 8", 
+            "After the start() method completes", 
+            "When the instance running this code is made eligible for garbage collection."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "public class X \n{\n    public static void main(String [] args) \n    {\n        X x = new X();\n        X x2 = m1(x); /* Line 6 */\n        X x4 = new X();\n        x2 = x4; /* Line 8 */\n        doComplexStuff();\n    }\n    static X m1(X mx) \n    {\n        mx = new X();\n        return mx;\n    }\n}\n\nAfter line 8 runs. how many objects are eligible for garbage collection?", 
+        "options": [
+            "0 \u00a0", 
+            "1", 
+            "2", 
+            "3"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "public Object m() \n{  \n    Object o = new Float(3.14F); \n    Object [] oa = new Object[l];\n    oa[0] = o; /* Line 5 */\n    o = null;  /* Line 6 */\n    oa[0] = null; /* Line 7 */\n    return o; /* Line 8 */\n}\n\nWhen is the Float object, created in line 3, eligible for garbage collection?", 
+        "options": [
+            "just after line 5", 
+            "just after line 6", 
+            "just after line 7", 
+            "just after line 8"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "class X2 \r\n{\r\n    public X2 x;\r\n    public static void main(String [] args) \r\n    {\r\n        X2 x2 = new X2();  /* Line 6 */\r\n        X2 x3 = new X2();  /* Line 7 */\r\n        x2.x = x3;\r\n        x3.x = x2;\r\n        x2 = new X2();\r\n        x3 = x2; /* Line 11 */\r\n        doComplexStuff();\r\n    }\r\n}\r\n\r\nafter line 11 runs, how many objects are eligible for garbage collection?", 
+        "options": [
+            "0", 
+            "1", 
+            "2", 
+            "3"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What allows the programmer to destroy an object x?", 
+        "options": [
+            "x.delete()", 
+            "x.finalize()", 
+            "Runtime.getRuntime().gc()", 
+            "Only the garbage collection system can destroy an object."
+        ], 
+        "ans": "D"
+    }
+]

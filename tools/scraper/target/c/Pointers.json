@@ -1,0 +1,82 @@
+[
+    {
+        "q": "What is (void*)0?", 
+        "options": [
+            "Representation of NULL pointer", 
+            "Representation of void pointer", 
+            "Error", 
+            "None of above"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Can you combine the following two statements into one?\nchar *p;\np = (char*) malloc(100);\n", 
+        "options": [
+            "char p = *malloc(100);", 
+            "char *p = (char) malloc(100);", 
+            "char *p = (char*)malloc(100);", 
+            "char *p = (char *)(malloc*)(100);"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "In which header file is the NULL macro defined?", 
+        "options": [
+            "stdio.h", 
+            "stddef.h", 
+            "stdio.h and stddef.h", 
+            "math.h"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "How many bytes are occupied by near, far and huge pointers (DOS)?", 
+        "options": [
+            "near=2 far=4 huge=4", 
+            "near=4 far=8 huge=8", 
+            "near=2 far=4 huge=8", 
+            "near=4 far=4 huge=8"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "If a variable is a pointer to a structure, then which of the following operator is used to access data members of the structure through the pointer variable?", 
+        "options": [
+            ".", 
+            "&", 
+            "*", 
+            "->"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What would be the equivalent pointer expression for referring the array element a[i][j][k][l]", 
+        "options": [
+            "((((a+i)+j)+k)+l)", 
+            "*(*(*(*(a+i)+j)+k)+l)", 
+            "(((a+i)+j)+k+l)", 
+            "((a+i)+j+k+l)"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "A pointer is", 
+        "options": [
+            "A keyword used to create variables", 
+            "A variable that stores address of an instruction", 
+            "A variable that stores address of other variable", 
+            "All of the above"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "The operator used to get value at address stored in a pointer variable is", 
+        "options": [
+            "*", 
+            "&", 
+            "&&", 
+            "||"
+        ], 
+        "ans": "A"
+    }
+]

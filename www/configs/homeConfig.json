@@ -1,0 +1,28 @@
+{
+    "menuItems": [
+        {
+            "name": "Learn",
+            "icon": "fa fa-graduation-cap",
+            "url": "#!/learn",
+            "desc": "Learning is a journey and a pleasure by itself. So, let's learn something new today. Pick anything from our wide and evergrowing range of topics and let the journey begin."
+        },
+        {
+            "name": "Exam",
+            "icon": "fa fa-pencil-square-o",
+            "url": "#!/library/index",
+            "desc": "You think you have learnt something? Let's test it. Whether you find exam as a challenging or you still have that little exam fearing kid inside you, exams with Knexaa is always fun. "
+        },
+        {
+            "name": "MemCards",
+            "icon": "fa fa-clone",
+            "url": "#!/learn",
+            "desc": "Learning something new? Take small notes in pocket cards. Later you can just slide through them to revise the entire topic. Best part: you can carry them anywhere in your pocket."
+        },
+        {
+            "name": "Dashboard",
+            "icon": "fa fa-line-chart",
+            "url": "#!/learn",
+            "desc": "Here you will find the marksheets, certificates, acheivements and all the glories that you have earned and other vital statistics that will help you scale and understand you progress better."
+        }
+    ]
+}

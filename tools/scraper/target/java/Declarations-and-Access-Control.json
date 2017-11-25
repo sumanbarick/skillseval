@@ -1,0 +1,185 @@
+[
+    {
+        "q": "You want subclasses in any package to have access to members of a superclass. Which is the most restrictive access that accomplishes this objective?", 
+        "options": [
+            "public", 
+            "private", 
+            "protected", 
+            "transient"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "public class Outer \n{ \n    public void someOuterMethod() \n    {\n        //Line 5 \n    } \n    public class Inner { } \n    \n    public static void main(String[] argv) \n    {\n        Outer ot = new Outer(); \n        //Line 10\n    } \n} \n\nWhich of the following code fragments inserted, will allow to compile?", 
+        "options": [
+            "new Inner(); //At line 5", 
+            "new Inner(); //At line 10", 
+            "new ot.Inner(); //At line 10", 
+            "new Outer.Inner(); //At line 10"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "interface Base \n{\n    boolean m1 ();\n    byte m2(short s);\n}\n\nwhich two code fragments will compile?\n\ninterface Base2 implements Base {}\n\nabstract class Class2 extends Base \n{ public boolean m1(){ return true; }}\n\nabstract class Class2 implements Base {}\nabstract class Class2 implements Base  \n{ public boolean m1(){ return (7 > 4); }}\nabstract class Class2 implements Base \n{ protected boolean m1(){ return (5 > 7) }}\n", 
+        "options": [
+            "1 and 2", 
+            "2 and 3", 
+            "3 and 4", 
+            "1 and 5"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which three form part of correct array declarations?\n\npublic int a [ ]\nstatic int [ ] a\npublic [ ] int a\nprivate int a [3]\nprivate int [3] a [ ]\npublic final int [ ] a\n", 
+        "options": [
+            "1, 3, 4", 
+            "2, 4, 5", 
+            "1, 2, 6", 
+            "2, 5, 6"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "public class Test { }\n\nWhat is the prototype of the default constructor?", 
+        "options": [
+            "Test( )", 
+            "Test(void)", 
+            "public Test( )", 
+            "public Test(void)"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What is the most restrictive access modifier that will allow members of one class to have access to members of another class in the same package?", 
+        "options": [
+            "public", 
+            "abstract", 
+            "protected", 
+            "synchronized", 
+            "default access"
+        ], 
+        "ans": "E"
+    }, 
+    {
+        "q": "Which of the following is/are legal method declarations?\n\nprotected abstract void m1();\nstatic final void m1(){}\nsynchronized public final void m1() {}\nprivate native void m1();\n", 
+        "options": [
+            "1 and 3", 
+            "2 and 4", 
+            "1 only", 
+            "All of them are legal declarations."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which cause a compiler error?", 
+        "options": [
+            "int[ ] scores = {3, 5, 7};", 
+            "int [ ][ ] scores = {2,7,6}, {9,3,45};", 
+            "String cats[ ] = {\"Fluffy\", \"Spot\", \"Zeus\"};", 
+            "boolean results[ ] = new boolean [] {true, false, true};", 
+            "Integer results[ ] = {new Integer(3), new Integer(5), new Integer(8)};"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which three are valid method signatures in an interface?\n\nprivate int getArea();\npublic float getVol(float x);\npublic void main(String [] args);\npublic static void main(String [] args);\nboolean setFlag(Boolean [] test);\n", 
+        "options": [
+            "1 and 2", 
+            "2, 3 and 5", 
+            "3, 4, and 5", 
+            "2 and 4"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "You want a class to have access to members of another class in the same package. Which is the most restrictive access that accomplishes this objective?", 
+        "options": [
+            "public", 
+            "private", 
+            "protected", 
+            "default access"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What is the widest valid returnType for methodA in line 3? \npublic class ReturnIt \n{ \n    returnType methodA(byte x, double y) /* Line 3 */\n    { \n        return (long)x / y * 2; \n    } \n}\n", 
+        "options": [
+            "int", 
+            "byte", 
+            "long", 
+            "double"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "class A \n{  \n    protected int method1(int a, int b) \n    {\n        return 0; \n    } \n}\n\nWhich is valid in a class that extends class A?", 
+        "options": [
+            "public int method1(int a, int b) {return 0; }", 
+            "private int method1(int a, int b) { return 0; }", 
+            "public short method1(int a, int b) { return 0; }", 
+            "static protected int method1(int a, int b) { return 0; }"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which one creates an instance of an array?", 
+        "options": [
+            "int[ ] ia = new int[15];", 
+            "float fa = new float[20];", 
+            "char[ ] ca = \"Some String\";", 
+            "int ia[ ] [ ] = { 4, 5, 6 }, { 1,2,3 };"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which two of the following are legal declarations for nonnested classes and interfaces?\n\nfinal abstract class Test {}\npublic static interface Test {}\nfinal public class Test {}\nprotected abstract class Test {}\nprotected interface Test {}\nabstract public class Test {}\n", 
+        "options": [
+            "1 and 4", 
+            "2 and 5", 
+            "3 and 6", 
+            "4 and 6"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following class level (nonlocal) variable declarations will not compile?", 
+        "options": [
+            "protected int a;", 
+            "transient int b = 3;", 
+            "private synchronized int e;", 
+            "volatile int d;"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which two cause a compiler error?\n\nfloat[ ] f = new float(3);\nfloat f2[ ] = new float[ ];\nfloat[ ]f1 = new float[3];\nfloat f3[ ] = new float[3];\nfloat f5[ ] = {1.0f, 2.0f, 2.0f};\n", 
+        "options": [
+            "2, 4", 
+            "3, 5", 
+            "4, 5", 
+            "1, 2"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Given a method in a protected class, what access modifier do you use to restrict access to that method to only the other members of the same class?", 
+        "options": [
+            "final", 
+            "static", 
+            "private", 
+            "protected", 
+            "volatile"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which is a valid declaration within an interface?", 
+        "options": [
+            "public static short stop = 23;", 
+            "protected short stop = 23;", 
+            "transient short stop = 23;", 
+            "final void madness(short stop);"
+        ], 
+        "ans": "A"
+    }
+]

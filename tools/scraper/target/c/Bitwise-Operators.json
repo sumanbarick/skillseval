@@ -1,0 +1,42 @@
+[
+    {
+        "q": "In which numbering system can the binary number 1011011111000101 be easily converted to?", 
+        "options": [
+            "Decimal system", 
+            "Hexadecimal system", 
+            "Octal system", 
+            "No need to convert"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which bitwise operator is suitable for turning off a particular bit in a number?", 
+        "options": [
+            "&& operator", 
+            "& operator", 
+            "|| operator", 
+            "!  operator"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which bitwise operator is suitable for turning on a particular bit in a number?", 
+        "options": [
+            "&& operator", 
+            "& operator", 
+            "|| operator", 
+            "|  operator"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which bitwise operator is suitable for checking whether a particular bit is on or off?", 
+        "options": [
+            "&& operator", 
+            "& operator", 
+            "|| operator", 
+            "!  operator"
+        ], 
+        "ans": "B"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "q": "What will the SWAP macro in the following program be expanded to on preprocessing? will the code compile?\r\n#include<stdio.h>\r\n#define SWAP(a, b, c)(c t; t=a, a=b, b=t)\r\nint main()\r\n{\r\n    int x=10, y=20;\r\n    SWAP(x, y, int);\r\n    printf(\"%d %d\\n\", x, y);\r\n    return 0;\r\n}\r\n", 
+        "options": [
+            "It compiles", 
+            "Compiles with an warning", 
+            "Not compile", 
+            "Compiles and print nothing"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "In which stage the following code #include<stdio.h>  gets replaced by the contents of the file stdio.h", 
+        "options": [
+            "During editing", 
+            "During linking", 
+            "During execution", 
+            "During preprocessing"
+        ], 
+        "ans": "D"
+    }
+]

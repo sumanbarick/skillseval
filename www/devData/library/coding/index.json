@@ -1,0 +1,42 @@
+{
+	"groupSubjectType": "topic",
+	"groupLibName": "coding",
+	"list":
+	[
+		{
+			"name": "C"
+		},
+		{
+			"name": "C++",
+			"path": "cpp"
+		},
+		{
+			"name": "C#",
+			"path": "cs"
+		},
+		{
+			"name": "Java"
+		},
+		{
+			"name": "Python"
+		},
+		{
+			"name": "Javascript",
+			"path": "js"
+		},
+		{
+			"name": "AngularJS",
+			"path": "angularjs"
+		},
+		{
+			"name": "Node.js",
+			"path": "nodejs"
+		},
+		{
+			"name": "HTML"
+		},
+		{
+			"name": "CSS"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "q": "In the following code, the P2 is Integer Pointer or Integer?\r\ntypedef int *ptr;\r\nptr p1, p2;\r\n", 
+        "options": [
+            "Integer", 
+            "Integer pointer", 
+            "Error in declaration", 
+            "None of above"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "In the following code what is 'P'?\ntypedef char *charp;\nconst charp P;\n", 
+        "options": [
+            "P is a constant", 
+            "P is a character constant", 
+            "P is character type", 
+            "None of above"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What is x in the following program?\n#include<stdio.h>\n\nint main()\n{\n    typedef char (*(*arrfptr[3])())[10];\n    arrfptr x;\n    return 0;\n}\n", 
+        "options": [
+            "x is a pointer", 
+            "x is an array of three pointer", 
+            "x is an array of three function pointers", 
+            "Error in x declaration"
+        ], 
+        "ans": "C"
+    }
+]

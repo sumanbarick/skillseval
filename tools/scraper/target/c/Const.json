@@ -1,0 +1,102 @@
+[
+    {
+        "q": "What will be the output of the program?\n#include<stdio.h>\n\nint main()\n{\n    int y=128;\n    const int x=y;\n    printf(\"%d\\n\", x);\n    return 0;\n}\n", 
+        "options": [
+            "128", 
+            "Garbage value", 
+            "Error", 
+            "0"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What will be the output of the program?\n#include<stdio.h>\n#include<stdlib.h>\n\nunion employee\n{\n    char name[15];\n    int age;\n    float salary;\n};\nconst union employee e1;\n\nint main()\n{\n    strcpy(e1.name, \"K\");\n    printf(\"%s %d %f\", e1.name, e1.age, e1.salary);\n    return 0;\n}\n", 
+        "options": [
+            "Error: RValue required", 
+            "Error: cannot convert from 'const int *' to 'int *const'", 
+            "Error: LValue required in strcpy", 
+            "No error"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What will be the output of the program?\n#include<stdio.h>\nint fun(int **ptr);\n\nint main()\n{\n    int i=10;\n    const int *ptr = &i;\n    fun(&ptr);\n    return 0;\n}\nint fun(int **ptr)\n{\n    int j = 223;\n    int *temp = &j;\n    printf(\"Before changing ptr = %5x\\n\", *ptr);\n    const *ptr = temp;\n    printf(\"After changing ptr = %5x\\n\", *ptr);\n    return 0;\n}\n", 
+        "options": [
+            "Address of iAddress of j", 
+            "10223", 
+            "Error: cannot convert parameter 1 from 'const int **' to 'int **'", 
+            "Garbage value"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\n#include<stdio.h>\n\nint main()\n{\n    const int x=5;\n    const int *ptrx;\n    ptrx = &x;\n    *ptrx = 10;\n    printf(\"%d\\n\", x);\n    return 0;\n}\n", 
+        "options": [
+            "5", 
+            "10", 
+            "Error", 
+            "Garbage value"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program in TurboC?\n#include<stdio.h>\nint fun(int **ptr);\n\nint main()\n{\n    int i=10, j=20;\n    const int *ptr = &i;\n    printf(\" i = %5X\", ptr);\n    printf(\" ptr = %d\", *ptr);\n    ptr = &j;\n    printf(\" j = %5X\", ptr);\n    printf(\" ptr = %d\", *ptr);\n    return 0;\n}\n", 
+        "options": [
+            "i= FFE2 ptr=12 j=FFE4 ptr=24", 
+            "i= FFE4 ptr=10 j=FFE2 ptr=20", 
+            "i= FFE0 ptr=20 j=FFE1 ptr=30", 
+            "Garbage value"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the program?\n#include<stdio.h>\n\nint main()\n{\n    const char *s = \"\";\n    char str[] = \"Hello\";\n    s = str;\n    while(*s)\n        printf(\"%c\", *s++);\n\n    return 0;\n}\n", 
+        "options": [
+            "Error", 
+            "H", 
+            "Hello", 
+            "Hel"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\n#include<stdio.h>\nint get();\n\nint main()\n{\n    const int x = get();\n    printf(\"%d\", x);\n    return 0;\n}\nint get()\n{\n    return 20;\n}\n", 
+        "options": [
+            "Garbage value", 
+            "Error", 
+            "20", 
+            "0"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program (in Turbo C)?\n#include<stdio.h>\n\nint fun(int *f)\n{\n    *f = 10;\n    return 0;\n}\nint main()\n{\n    const int arr[5] = {1, 2, 3, 4, 5};\n    printf(\"Before modification arr[3] = %d\", arr[3]);\n    fun(&arr[3]);\n    printf(\"\\nAfter modification arr[3] = %d\", arr[3]);\n    return 0;\n}\n", 
+        "options": [
+            "Before modification arr[3] = 4 After modification arr[3] = 10", 
+            "Error: cannot convert parameter 1 from const int * to int *", 
+            "Error: Invalid parameter", 
+            "Before modification arr[3] = 4 After modification arr[3] = 4"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What will be the output of the program?\n#include<stdio.h>\n\nint main()\n{\n    const int i=0;\n    printf(\"%d\\n\", i++);\n    return 0;\n}\n", 
+        "options": [
+            "10", 
+            "11", 
+            "No output", 
+            "Error: ++needs a value"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What will be the output of the program?\r\n#include<stdio.h>\r\n\r\nint main()\r\n{\r\n    const c = -11;\r\n    const int d = 34;\r\n    printf(\"%d, %d\\n\", c, d);\r\n    return 0;\r\n}\r\n", 
+        "options": [
+            "Error", 
+            "-11, 34", 
+            "11, 34", 
+            "None of these"
+        ], 
+        "ans": "B"
+    }
+]

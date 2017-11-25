@@ -1,0 +1,15 @@
+<div id="libraryTemplate">
+    <!-- <div data-ng-include="'subheader.html'"></div> -->
+
+    <div class="heading">Select a subject</div>
+
+    <div class="">
+    	<div data-ng-repeat="item in vm.library.list" class="lib-card col-xs-12 col-sm-4 col-md-3">
+    		<div class="inner-container" data-ng-click="vm.goTo(item)">
+    			<label class="title font-aldrich" data-ng-bind="item.name"></label>
+    			<!-- <a href="#!/library/{{item.name.toLowerCase()}}" class="button font-electrolize" data-ng-if="item.subjectType === 'library'">Show Subjects</a>
+    			<a href="#!/library/{{item.libName.toLowerCase()}}/{{item.name.toLowerCase()}}" class="button font-electrolize" data-ng-if="item.subjectType === 'topic'">Show Exams</a> -->
+    		</div>
+    	</div>
+    </div>
+</div>

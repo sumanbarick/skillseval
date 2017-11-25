@@ -1,0 +1,21 @@
+<div id="q-wrapper">
+    
+    <div class="qa-panel panel panel-default" data-ng-repeat="qa in vm.questions">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <pre><b>{{"[Q " + ($index+1) + "] "}}</b>{{qa.q.trim()}}</pre>
+            </div>
+        </div>
+        <div class="panel-body options-container" data-ng-init="qa.chosenAns='Z'">
+            <div data-ng-repeat="op in qa.options">
+                <pre><input type="radio" value="{{vm.optionIndices[$index]}}" data-ng-model="qa.chosenAns"> {{vm.optionIndices[$index] + ". " + op.trim()}}</pre>                
+            </div>
+            <div>
+                <pre><input type="radio" value="Z" data-ng-model="qa.chosenAns"> Z. I don't want to answer</pre> 
+            </div>
+        </div>
+    </div>
+
+</div>
+<button type="button" data-ng-click="vm.abortExam()">Abort</button>
+<button type="button" data-ng-click="vm.submitExam()">Submit</button>

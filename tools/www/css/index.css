@@ -1,0 +1,58 @@
+textarea {
+    resize: none;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    text-align: center;
+    background: #fff;
+    border-bottom: 3px inset #ccc;
+    z-index: 999;
+}
+
+.header .logo {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.header .logo img {
+    height: 60px;
+}
+
+.header .title {
+    color: blue;
+}
+
+.main-container {
+    margin-top: 100px;
+}
+
+.collapse-header {
+    position: relative;
+}
+
+.collapse-header .collapse-key {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    display: none;
+    font-size: 25px;
+}
+
+.collapse-header.closed .down,
+.collapse-header.opened .up {
+    display: inline-block;
+}

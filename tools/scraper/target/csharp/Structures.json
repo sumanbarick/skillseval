@@ -1,0 +1,185 @@
+[
+    {
+        "q": "The space required for structure variables is allocated on stack.", 
+        "options": [
+            "True", 
+            "False"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Creating empty structures is allowed in C#.NET.", 
+        "options": [
+            "True", 
+            "False"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following will be the correct output for the C#.NET program given below?\nnamespace IndiabixConsoleApplication\n{ \n    struct Sample\n    {\n        public int i;\n    }\n    class MyProgram\n    { \n        static void Main()\n        {\n            Sample x = new Sample(); \n            x.i = 10; \n            fun(x); \n            Console.Write(x.i + \" \");\n        }\n        static void fun(Sample y)\n        {\n            y.i = 20; \n            Console.Write(y.i + \" \");\n        } \n    } \n}", 
+        "options": [
+            "10 20", 
+            "10 10", 
+            "20 10", 
+            "20 20", 
+            "None of the above"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following is the correct way of setting values into the structure variable e defined below?\nstruct Emp\n{\n    public String name;\n    public int age;\n    public Single sal; \n}\nEmp e = new Emp();", 
+        "options": [
+            "e.name = \"Amol\"; \ne.age = 25; \ne.sal = 5500;", 
+            "With e\n{\n    .name = \"Amol\";\n    .age = 25;\n    .sal = 5500; \n}", 
+            "With emp e\n{\n    .name = \"Amol\";\n    .age = 25;\n    .sal = 5500; \n}", 
+            "e -> name = \"Amol\"; \ne -> age = 25;\ne -> sal = 5500;", 
+            "name = \"Amol\"; \nage = 25;\nsal = 5500;"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following is the correct way to define a variable of the type struct Emp declared below?\nstruct Emp\n{\n    private String name; \n    private int age; \n    private Single sal;\n}\nEmp e(); e = new Emp();\nEmp e = new Emp;\nEmp e; e = new Emp;\nEmp e = new Emp();\nEmp e;\n", 
+        "options": [
+            "1, 3", 
+            "2, 5", 
+            "4, 5", 
+            "1, 2, 4"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\nclass Trial\n{ \n    int i;\n    Decimal d;\n}\nstruct Sample\n{\n    private int x;\n    private Single y;\n    private Trial z;\n}\nSample ss = new Sample();", 
+        "options": [
+            "ss will be created on the heap.", 
+            "Trial object referred by z will be created on the stack.", 
+            "z will be created on the heap.", 
+            "Both ss and z will be created on the heap.", 
+            "ss will be created on the stack."
+        ], 
+        "ans": "E"
+    }, 
+    {
+        "q": "How many bytes will the structure variable samp occupy in memory if it is defined as shown below?\nclass Trial\n{ \n    int i; \n    Decimal d;\n}\nstruct Sample\n{\n    private int x; \n    private Single y; \n    private Trial z;\n}\nSample samp = new Sample();", 
+        "options": [
+            "20 bytes", 
+            "12 bytes", 
+            "8 bytes", 
+            "16 bytes", 
+            "24 bytes"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following will be the correct result of the statement b = a in the C#.NET code snippet given below?\nstruct Address\n{\n    private int plotno;\n    private String city; \n}\nAddress a = new Address(); \nAddress b; \nb = a;", 
+        "options": [
+            "All elements of a will get copied into corresponding elements of b.", 
+            "Address stored in a will get copied into b.", 
+            "Once assignment is over a will get garbage collected.", 
+            "Once assignment is over a will go out of scope, hence will die.", 
+            "Address of the first element of a will get copied into b."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements are correct?\nA struct can contain properties.\nA struct can contain constructors.\nA struct can contain protected data members.\nA struct cannot contain methods.\nA struct cannot contain constants.\n", 
+        "options": [
+            "1, 2", 
+            "3, 4", 
+            "1, 2, 4", 
+            "3, 5"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "C#.NET structures are always value types.", 
+        "options": [
+            "True", 
+            "False"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "When would a structure variable get destroyed?", 
+        "options": [
+            "When no reference refers to it, it will get garbage collected.", 
+            "Depends upon whether it is created using new or without using new.", 
+            "When it goes out of scope.", 
+            "Depends   upon   the   Project   Settings   made   in   Visual Studio.NET.", 
+            "Depends upon whether we free it's memory using free() or delete()."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\nstruct Book\n{\n    private String name; \n    private int noofpages; \n    private Single price;\n}\nBook b = new Book();", 
+        "options": [
+            "The structure variable b will be created on the heap.", 
+            "We  can add a zero-argument constructor to the above structure.", 
+            "When the program terminates, variable b will get garbage collected.", 
+            "The structure variable b will be created on the stack.", 
+            "We can inherit a new structure from struct Book."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following will be the correct output for the C#.NET program given below?\nnamespace IndiabixConsoleApplication\n{ \n    struct Sample\n    { \n        public int i;\n    }\n    class MyProgram\n    { \n        static void Main(string[] args)\n        {\n            Sample x = new Sample(); \n            x.i = 10; \n            fun(ref x); \n            Console.Write(x.i + \" \");\n        }\n        public static void fun(ref Sample y)\n        { \n            y.i = 20;\n            Console.Write(y.i + \" \"); \n        } \n    } \n}", 
+        "options": [
+            "20 10", 
+            "10 20", 
+            "10 10", 
+            "20 20", 
+            "None of the above"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements is correct?", 
+        "options": [
+            "A struct never declares a default constructor.", 
+            "All value types in C# inherently derive from ValueType, which inherits from Object.", 
+            "A struct never declares a default destructor.", 
+            "In C#, classes and structs are semantically same."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements are correct about the structure declaration given below?\nstruct Book\n{\n    private String name; \n    protected int totalpages; \n    public Single price; \n    public void Showdata()\n    {\n        Console.WriteLine(name + \" \" + totalpages + \" \" + price);\n    } \n    Book()\n    {\n        name = \" \"; \n        totalpages = 0;\n        price = 0.0f; \n    } \n} \nBook b = new Book();\nWe cannot declare the access modifier of totalpages as protected.\nWe cannot declare the access modifier of name as private.\nWe  cannot define  a zero-argument constructor inside  a structure.\nWe cannot declare the access modifier of price as public.\nWe can define a Showdata() method inside a structure.\n", 
+        "options": [
+            "1, 2", 
+            "1, 3, 5", 
+            "2, 4", 
+            "3, 4, 5"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following are true about classes and struct?\nA class is a reference type, whereas a struct is a value type.\nObjects are created using new, whereas structure variables can be created either using new or without using new.\nA structure variable will always be created slower than an object.\nA structure variable will die when it goes out of scope.\nAn object will die when it goes out of scope.\n", 
+        "options": [
+            "1, 2, 4", 
+            "3, 5", 
+            "2, 4", 
+            "3, 4, 5"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following will be the correct output for the program given below?\nnamespace IndiabixConsoleApplication\n{ \n    struct Sample\n    {\n        public int i;\n    }\n    class MyProgram\n    { \n        static void Main(string[] args)\n        {\n            Sample x = new Sample();\n            Sample y;\n            x.i = 9;\n            y = x;\n            y.i = 5;\n            Console.WriteLine(x.i + \" \" + y.i); \n        } \n    } \n}", 
+        "options": [
+            "9 9", 
+            "9 5", 
+            "5 5", 
+            "5 9", 
+            "None of the above"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements are correct about Structures used in C#.NET?\nA Structure can be declared within a procedure.\nStructs can implement an interface but they cannot inherit from another struct.\nstruct members cannot be declared as protected.\nA Structure can be empty.\nIt is an error to initialize an instance field in a struct.\n", 
+        "options": [
+            "1, 2, 4", 
+            "2, 3, 5", 
+            "2, 4", 
+            "1, 3"
+        ], 
+        "ans": "B"
+    }
+]

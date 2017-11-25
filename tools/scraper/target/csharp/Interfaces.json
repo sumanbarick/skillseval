@@ -1,0 +1,159 @@
+[
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\ninterface IMyInterface\n{ \n    void fun1(); \n    int fun2();\n}\nclass MyClass: IMyInterface\n{ \n    void fun1()\n    { } \n    int IMyInterface.fun2()\n    { } \n}", 
+        "options": [
+            "A function cannot be declared inside an interface.", 
+            "A subroutine cannot be declared inside an interface.", 
+            "A Method Table will not be created for class MyClass.", 
+            "MyClass is an abstract class.", 
+            "The definition of fun1() in class MyClass should be void IMyInterface.fun1()."
+        ], 
+        "ans": "E"
+    }, 
+    {
+        "q": "Which of the following can be declared in an interface?\nProperties\nMethods\nEnumerations\nEvents\nStructures\n", 
+        "options": [
+            "1, 3", 
+            "1, 2, 4", 
+            "3, 5", 
+            "4, 5"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "A class implements two interfaces each containing three methods. The class contains no instance data. Which of the following correctly indicate the size of the object created from this class?", 
+        "options": [
+            "12 bytes", 
+            "24 bytes", 
+            "0 byte", 
+            "8 bytes", 
+            "16 bytes"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements is correct about an interface used in C#.NET?", 
+        "options": [
+            "One class can implement only one interface.", 
+            "In a program if one class implements an interface then no other class in the same program can implement this interface.", 
+            "From two base interfaces a new interface cannot be inherited.", 
+            "Properties can be declared inside an interface.", 
+            "Interfaces cannot be inherited."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements is correct about Interfaces used in C#.NET?", 
+        "options": [
+            "All interfaces are derived from an Object class.", 
+            "Interfaces can be inherited.", 
+            "All interfaces are derived from an Object interface.", 
+            "Interfaces can contain only method declaration.", 
+            "Interfaces can contain static data and methods."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements is correct about an interface used in C#.NET?", 
+        "options": [
+            "If a class implements an interface partially, then it should be an abstract class.", 
+            "A class cannot implement an interface partially.", 
+            "An interface can contain static methods.", 
+            "An interface can contain static data.", 
+            "Multiple interface inheritance is not allowed."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements is correct about an interface?", 
+        "options": [
+            "One interface can be implemented in another interface.", 
+            "An interface can be implemented by multiple classes in the same program.", 
+            "A class that implements an interface can explicitly implement members of that interface.", 
+            "The functions declared in an interface have a body."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements are correct about an interface in C#.NET?\nA class can implement multiple interfaces.\nStructures  cannot  inherit a class  but can  implement an interface.\nIn  C#.NET,   :   is  used  to  signify that  a  class  member implements a specific interface.\nAn interface can implement multiple classes.\nThe static attribute can be used with a method that implements an interface declaration.\n", 
+        "options": [
+            "1, 2, 3", 
+            "2, 4", 
+            "3, 5", 
+            "None of the above."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following is the correct implementation of the interface given below?\ninterface IMyInterface\n{ \n    double MyFun(Single i);\n}", 
+        "options": [
+            "class MyClass\n{\n    double MyFun(Single i) as IMyInterface.MyFun\n    {\n        // Some code\n    }\n}", 
+            "class MyClass \n{\n    MyFun (Single i) As Double\n    {\n        // Some code\n    } \n}", 
+            "class MyClass: implements IMyInterface\n{\n    double fun(Single si) implements IMyInterface.MyFun()\n    {\n        //Some code\n    } \n}", 
+            "class MyClass: IMyInterface\n{\n    double IMyInterface.MyFun(Single i)\n    {\n        // Some code\n    } \n}"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements is correct?", 
+        "options": [
+            "When   a   class   inherits   an   interface   it   inherits   member definitions as well as its implementations.", 
+            "An interface cannot contain the signature of an indexer.", 
+            "Interfaces members are automatically public.", 
+            "To implement an interface member, the corresponding member in the class must be public as well as static."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements are correct about an interface used in C#.NET?\nAn interface can contain properties, methods and events.\nThe  keyword  must implement forces  implementation  of an interface.\nInterfaces can be overloaded.\nInterfaces can be implemented by a class or a struct.\nEnhanced implementations of an interface can be developed without breaking existing code.\n", 
+        "options": [
+            "1, 2", 
+            "1, 4, 5", 
+            "3, 4", 
+            "3 only"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following can implement an interface?\nData\nClass\nEnum\nStructure\nNamespace\n", 
+        "options": [
+            "1, 3", 
+            "2, 4", 
+            "3, 5", 
+            "4 only"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\ninterface IMyInterface \n{\n    void fun1(); \n    void fun2();\n}\nclass MyClass: IMyInterface\n{ \n    private int i; \n    void IMyInterface.fun1()\n    { \n        // Some code\n    } \n}", 
+        "options": [
+            "Class MyClass is an abstract class.", 
+            "Class MyClass cannot contain instance data.", 
+            "Class MyClass fully implements the interface IMyInterface.", 
+            "Interface IMyInterface should be inherited from the Object class.", 
+            "The compiler will report an error since the interface IMyInterface is only partially implemented."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\ninterface IPerson\n{ \n    String FirstName\n    { \n        get; \n        set;\n    }\n    String LastName\n    {\n        get; \n        set;\n    }\n    void Print(); \n    void Stock(); \n    int Fun(); \n}", 
+        "options": [
+            "Properties cannot be declared inside an interface.", 
+            "This is a perfectly workable interface.", 
+            "The properties in the interface must have a body.", 
+            "Subroutine in the interface must have a body.", 
+            "Functions cannot be declared inside an interface."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following is the correct way to implement the interface given below?\ninterface IPerson\n{ \n    String FirstName\n    {\n        get;\n        set; \n    } \n}", 
+        "options": [
+            "class Employee : IPerson\n{\n    private String str; \n    public String FirstName\n    {\n        get\n        { \n            return str;\n        } \n        set\n        { \n            str = value;\n        } \n    } \n}", 
+            "class Employee\n{\n    private String str;\n    public String IPerson.FirstName\n    { \n        get\n        { \n            return str;\n        } \n        set\n        { \n            str = value;\n        } \n    } \n}", 
+            "class Employee : implements IPerson\n{\n    private String str; \n    public String FirstName\n    { \n        get\n        { \n            return str;\n        } \n        set\n        {\n            str = value; \n        } \n    } \n}", 
+            "None of the above"
+        ], 
+        "ans": "A"
+    }
+]

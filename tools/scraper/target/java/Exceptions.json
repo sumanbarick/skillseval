@@ -1,0 +1,102 @@
+[
+    {
+        "q": "What will be the output of the program?\npublic class Foo \n{  \n    public static void main(String[] args) \n    {\n        try \n        { \n            return; \n        } \n        finally \n        {\n            System.out.println( \"Finally\" ); \n        } \n    } \n}\n", 
+        "options": [
+            "Finally", 
+            "Compilation fails.", 
+            "The code runs with no output.", 
+            "An exception is thrown at runtime."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What will be the output of the program?\ntry \n{ \n    int x = 0; \n    int y = 5 / x; \n} \ncatch (Exception e) \n{\n    System.out.println(\"Exception\"); \n} \ncatch (ArithmeticException ae) \n{\n    System.out.println(\" Arithmetic Exception\"); \n} \nSystem.out.println(\"finished\");\n", 
+        "options": [
+            "finished", 
+            "Exception", 
+            "Compilation fails.", 
+            "Arithmetic Exception"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\npublic class X \n{  \n    public static void main(String [] args) \n    {\n        try \n        {\n            badMethod();  \n            System.out.print(\"A\"); \n        }  \n        catch (Exception ex) \n        {\n            System.out.print(\"B\");  \n        } \n        finally \n        {\n            System.out.print(\"C\"); \n        } \n        System.out.print(\"D\"); \n    }  \n    public static void badMethod() \n    {\n        throw new Error(); /* Line 22 */\n    } \n}\n", 
+        "options": [
+            "ABCD", 
+            "Compilation fails.", 
+            "C is printed before exiting with an error message.", 
+            "BC is printed before exiting with an error message."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\npublic class X \n{  \n    public static void main(String [] args) \n    {\n        try \n        {\n            badMethod();  \n            System.out.print(\"A\");  \n        } \n        catch (RuntimeException ex) /* Line 10 */\n        { \n            System.out.print(\"B\"); \n        } \n        catch (Exception ex1) \n        { \n            System.out.print(\"C\"); \n        } \n        finally \n        {\n            System.out.print(\"D\"); \n        } \n        System.out.print(\"E\"); \n    } \n    public static void badMethod() \n    { \n        throw new RuntimeException(); \n    } \n}\n", 
+        "options": [
+            "BD", 
+            "BCD", 
+            "BDE", 
+            "BCDE"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\npublic class RTExcept \n{\n    public static void throwit () \n    {\n        System.out.print(\"throwit \");\n        throw new RuntimeException();\n    }\n    public static void main(String [] args) \n    {\n        try \n        {\n            System.out.print(\"hello \");\n            throwit();\n        }\n        catch (Exception re ) \n        {\n            System.out.print(\"caught \");\n        }\n        finally \n        {\n            System.out.print(\"finally \");\n        }\n        System.out.println(\"after \");\n    }\n}\n", 
+        "options": [
+            "hello throwit caught", 
+            "Compilation fails", 
+            "hello throwit RuntimeException caught after", 
+            "hello throwit caught finally after"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What will be the output of the program?\npublic class Test \n{  \n    public static void aMethod() throws Exception \n    {\n        try /* Line 5 */\n        {\n            throw new Exception(); /* Line 7 */\n        } \n        finally /* Line 9 */\n        {\n            System.out.print(\"finally \"); /* Line 11 */\n        } \n    } \n    public static void main(String args[]) \n    {\n        try \n        {\n            aMethod();  \n        } \n        catch (Exception e) /* Line 20 */\n        {\n            System.out.print(\"exception \"); \n        } \n        System.out.print(\"finished\"); /* Line 24 */\n    } \n}\n", 
+        "options": [
+            "finally", 
+            "exception finished", 
+            "finally exception finished", 
+            "Compilation fails"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\npublic class X \n{ \n    public static void main(String [] args) \n    {\n        try \n        {\n            badMethod();  \n            System.out.print(\"A\"); \n        }  \n        catch (Exception ex) \n        {\n            System.out.print(\"B\"); \n        }  \n        finally \n        {\n            System.out.print(\"C\"); \n        }  \n        System.out.print(\"D\"); \n    }  \n    public static void badMethod() {} \n} \n", 
+        "options": [
+            "AC", 
+            "BC", 
+            "ACD", 
+            "ABCD"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\npublic class X \n{  \n    public static void main(String [] args) \n    {\n        try \n        {\n            badMethod(); /* Line 7 */\n            System.out.print(\"A\"); \n        } \n        catch (Exception ex) /* Line 10 */\n        {\n            System.out.print(\"B\"); /* Line 12 */\n        } \n        finally /* Line 14 */\n        {\n            System.out.print(\"C\"); /* Line 16 */\n        }  \n        System.out.print(\"D\"); /* Line 18 */\n    } \n    public static void badMethod() \n    {\n        throw new RuntimeException(); \n    } \n}\n", 
+        "options": [
+            "AB", 
+            "BC", 
+            "ABC", 
+            "BCD"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What will be the output of the program?\npublic class MyProgram \n{\n    public static void main(String args[])\n    {\n        try \n        {\n            System.out.print(\"Hello world \");\n        }\n        finally \n        {\n            System.out.println(\"Finally executing \");\n        }\n    }\n}\n", 
+        "options": [
+            "Nothing. The program will not compile because no exceptions are specified.", 
+            "Nothing. The program will not compile because no catch clauses are specified.", 
+            "Hello world.", 
+            "Hello world Finally executing"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass Exc0 extends Exception { } \nclass Exc1 extends Exc0 { } /* Line 2 */\npublic class Test \n{  \n    public static void main(String args[]) \n    { \n        try \n        {  \n            throw new Exc1(); /* Line 9 */\n        } \n        catch (Exc0 e0) /* Line 11 */\n        {\n            System.out.println(\"Ex0 caught\"); \n        } \n        catch (Exception e) \n        {\n            System.out.println(\"exception caught\");  \n        } \n    } \n}\n", 
+        "options": [
+            "Ex0 caught", 
+            "exception caught", 
+            "Compilation fails because of an error at line 2.", 
+            "Compilation fails because of an error at line 9."
+        ], 
+        "ans": "A"
+    }
+]

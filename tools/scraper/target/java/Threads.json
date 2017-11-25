@@ -1,0 +1,152 @@
+[
+    {
+        "q": "What is the name of the method used to start a thread execution?", 
+        "options": [
+            "init();", 
+            "start();", 
+            "run();", 
+            "resume();"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which two are valid constructors for Thread?\n\nThread(Runnable r, String name)\nThread()\nThread(int priority)\nThread(Runnable r, ThreadGroup g)\nThread(Runnable r, int priority)\n", 
+        "options": [
+            "1 and 3", 
+            "2 and 4", 
+            "1 and 2", 
+            "2 and 5"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which three are methods of the Object class?\n\nnotify();\nnotifyAll();\nisInterrupted();\nsynchronized();\ninterrupt();\nwait(long msecs);\nsleep(long msecs);\nyield();\n", 
+        "options": [
+            "1, 2, 4", 
+            "2, 4, 5", 
+            "1, 2, 6", 
+            "2, 3, 4"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "class X implements Runnable \n{ \n    public static void main(String args[]) \n    {\n        /* Missing code? */\n    } \n    public void run() {} \n}\n\nWhich of the following line of code is suitable to start a thread ?", 
+        "options": [
+            "Thread t = new Thread(X);", 
+            "Thread t = new Thread(X); t.start();", 
+            "X run = new X(); Thread t = new Thread(run); t.start();", 
+            "Thread t = new Thread(); x.run();"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which cannot directly cause a thread to stop executing?", 
+        "options": [
+            "Calling the SetPriority() method on a Thread object.", 
+            "Calling the wait() method on an object.", 
+            "Calling notify() method on an object.", 
+            "Calling read() method on an InputStream object."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which two of the following methods are defined in class Thread?\n\nstart()\nwait()\nnotify()\nrun()\nterminate()\n", 
+        "options": [
+            "1 and 4", 
+            "2 and 3", 
+            "3 and 4", 
+            "2 and 4"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which three guarantee that a thread will leave the running state?\n\nyield()\nwait()\nnotify()\nnotifyAll()\nsleep(1000)\naLiveThread.join()\nThread.killThread()\n", 
+        "options": [
+            "1, 2 and 4", 
+            "2, 5 and 6", 
+            "3, 4 and 7", 
+            "4, 5 and 7"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following will directly stop the execution of a Thread?", 
+        "options": [
+            "wait()", 
+            "notify()", 
+            "notifyall()", 
+            "exits synchronized code"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which method must be defined by a class implementing the java.lang.Runnable interface?", 
+        "options": [
+            "void run()", 
+            "public void run()", 
+            "public void start()", 
+            "void run(int priority)"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which will contain the body of the thread?", 
+        "options": [
+            "run();", 
+            "start();", 
+            "stop();", 
+            "main();"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which method registers a thread in a thread scheduler?", 
+        "options": [
+            "run();", 
+            "construct();", 
+            "start();", 
+            "register();"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Assume the following method is properly synchronized and called from a thread A on an object B:\nwait(2000);\nAfter calling this method, when will the thread A become a candidate to get another turn at the CPU?", 
+        "options": [
+            "After thread A is notified, or after two seconds.", 
+            "After the lock on B is released, or after two seconds.", 
+            "Two seconds after thread A is notified.", 
+            "Two seconds after lock B is released."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following will not directly cause a thread to stop?", 
+        "options": [
+            "notify()", 
+            "wait()", 
+            "InputStream access", 
+            "sleep()"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which class or interface defines the wait(), notify(),and notifyAll() methods?", 
+        "options": [
+            "Object", 
+            "Thread", 
+            "Runnable", 
+            "Class"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "public class MyRunnable implements Runnable \n{\n    public void run() \n    {\n        // some code here\n    }\n}\n\nwhich of these will create and start this thread?", 
+        "options": [
+            "new Runnable(MyRunnable).start();", 
+            "new Thread(MyRunnable).run();", 
+            "new Thread(new MyRunnable()).start();", 
+            "new MyRunnable().start();"
+        ], 
+        "ans": "C"
+    }
+]

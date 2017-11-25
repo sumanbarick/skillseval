@@ -1,0 +1,145 @@
+[
+    {
+        "q": "Which four options describe the correct default values for array elements of the types indicated?\n\nint -> 0\nString -> \"null\"\nDog -> null\nchar -> '\\u0000'\nfloat -> 0.0f\nboolean -> true\n", 
+        "options": [
+            "1, 2, 3, 4", 
+            "1, 3, 4, 5", 
+            "2, 4, 5, 6", 
+            "3, 4, 5, 6"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which one of these lists contains only Java programming language keywords?", 
+        "options": [
+            "class, if, void, long, Int, continue", 
+            "goto, instanceof, native, finally, default, throws", 
+            "try, virtual, throw, final, volatile, transient", 
+            "strictfp, constant, super, implements, do", 
+            "byte, break, assert, switch, include"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which will legally declare, construct, and initialize an array?", 
+        "options": [
+            "int [] myList = {\"1\", \"2\", \"3\"};", 
+            "int [] myList = (5, 8, 2);", 
+            "int myList [] [] = {4,9,7,0};", 
+            "int myList [] = {4, 3, 7};"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which is a reserved word in the Java programming language?", 
+        "options": [
+            "method", 
+            "native", 
+            "subclasses", 
+            "reference", 
+            "array"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which is a valid keyword in java?", 
+        "options": [
+            "interface", 
+            "string", 
+            "Float", 
+            "unsigned"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which three are legal array declarations?\n\nint [] myScores [];\nchar [] myChars;\nint [6] myScores;\nDog myDogs [];\nDog myDogs [7];\n", 
+        "options": [
+            "1, 2, 4", 
+            "2, 4, 5", 
+            "2, 3, 4", 
+            "All are correct."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "public interface Foo \n{ \n    int k = 4; /* Line 3 */\n}\n\nWhich three piece of codes are equivalent to line 3?\n\nfinal int k = 4;\npublic int k = 4;\nstatic int k = 4;\nabstract int k = 4;\nvolatile int k = 4;\nprotected int k = 4;\n", 
+        "options": [
+            "1, 2 and 3", 
+            "2, 3 and 4", 
+            "3, 4 and 5", 
+            "4, 5 and 6"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which one of the following will declare an array and initialize it with five numbers?", 
+        "options": [
+            "Array a = new Array(5);", 
+            "int [] a = {23,22,21,20,19};", 
+            "int a [] = new int[5];", 
+            "int [5] array;"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which three are valid declarations of a char?\n\nchar c1 = 064770;\nchar c2 = 'face';\nchar c3 = 0xbeef;\nchar c4 = \\u0022;\nchar c5 = '\\iface';\nchar c6 = '\\uface';\n", 
+        "options": [
+            "1, 2, 4", 
+            "1, 3, 6", 
+            "3, 5", 
+            "5 only"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which is the valid declarations within an interface definition?", 
+        "options": [
+            "public double methoda();", 
+            "public final double methoda();", 
+            "static void methoda(double d1);", 
+            "protected void methoda(double d1);"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which one is a valid declaration of a boolean?", 
+        "options": [
+            "boolean b1 = 0;", 
+            "boolean b2 = 'false';", 
+            "boolean b3 = false;", 
+            "boolean b4 = Boolean.false();", 
+            "boolean b5 = no;"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which three are valid declarations of a float?\n\nfloat f1 = -343;\nfloat f2 = 3.14;\nfloat f3 = 0x12345;\nfloat f4 = 42e7;\nfloat f5 = 2001.0D;\nfloat f6 = 2.81F;\n", 
+        "options": [
+            "1, 2, 4", 
+            "2, 3, 5", 
+            "1, 3, 6", 
+            "2, 4, 6"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which is a valid declarations of a String?", 
+        "options": [
+            "String s1 = null;", 
+            "String s2 = 'null';", 
+            "String s3 = (String) 'abc';", 
+            "String s4 = (String) '\\ufeed';"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What is the numerical range of a char?", 
+        "options": [
+            "-128 to 127", 
+            "-(215) to (215) - 1", 
+            "0 to 32767", 
+            "0 to 65535"
+        ], 
+        "ans": "D"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "q": "How will you free the allocated memory ?", 
+        "options": [
+            "remove(var-name);", 
+            "free(var-name);", 
+            "delete(var-name);", 
+            "dalloc(var-name);"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What is the similarity between a structure, union and enumeration?", 
+        "options": [
+            "All of them let you define new values", 
+            "All of them let you define new data types", 
+            "All of them let you define new pointers", 
+            "All of them let you define new structures"
+        ], 
+        "ans": "B"
+    }
+]

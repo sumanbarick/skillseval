@@ -1,0 +1,122 @@
+[
+    {
+        "q": "Declare the following statement?\r\n\"An array of three pointers to chars\".", 
+        "options": [
+            "char *ptr[3]();", 
+            "char *ptr[3];", 
+            "char (*ptr[3])();", 
+            "char **ptr[3];"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What do the following declaration signify?\nint *ptr[30];", 
+        "options": [
+            "ptr is a pointer to an array of 30 integer pointers.", 
+            "ptr is a array of 30 pointers to integers.", 
+            "ptr is a array of 30 integer pointers.", 
+            "ptr is a array 30 pointers."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Declare the following statement?\r\n\"A pointer to an array of three chars\".", 
+        "options": [
+            "char *ptr[3]();", 
+            "char (*ptr)*[3];", 
+            "char (*ptr[3])();", 
+            "char (*ptr)[3];"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What do the following declaration signify?\nchar *arr[10];", 
+        "options": [
+            "arr is a array of 10 character pointers.", 
+            "arr is a array of function pointer.", 
+            "arr is a array of characters.", 
+            "arr is a pointer to array of characters."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What do the following declaration signify?\nint (*pf)();", 
+        "options": [
+            "pf is a pointer to function.", 
+            "pf is a function pointer.", 
+            "pf is a pointer to a function which return int", 
+            "pf is a function of pointer variable."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Declare the following statement?\n\"A pointer to a function which receives an int pointer and returns float pointer\".", 
+        "options": [
+            "float *(ptr)*int;", 
+            "float *(*ptr)(int)", 
+            "float *(*ptr)(int*)", 
+            "float (*ptr)(int)"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What do the following declaration signify?\nvoid *cmp();", 
+        "options": [
+            "cmp is a pointer to an void type.", 
+            "cmp is a void type pointer variable.", 
+            "cmp is a function that return a void pointer.", 
+            "cmp function returns nothing."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Declare the following statement?\n\"A pointer to a function which receives nothing and returns nothing\".", 
+        "options": [
+            "void *(ptr)*int;", 
+            "void *(*ptr)()", 
+            "void *(*ptr)(*)", 
+            "void (*ptr)()"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What do the following declaration signify?\r\nint *f();", 
+        "options": [
+            "f is a pointer variable of function type.", 
+            "f is a function returning pointer to an int.", 
+            "f is a function pointer.", 
+            "f is a simple declaration of pointer variable."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What do the following declaration signify?\nvoid (*cmp)();", 
+        "options": [
+            "cmp is a pointer to an void function type.", 
+            "cmp is a void type pointer function.", 
+            "cmp is a function that return a void pointer.", 
+            "cmp is a pointer to a function which returns void ."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What do the following declaration signify?\nchar **argv;", 
+        "options": [
+            "argv is a pointer to pointer.", 
+            "argv is a pointer to a char pointer.", 
+            "argv is a function pointer.", 
+            "argv is a member of function pointer."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What do the following declaration signify?\nchar *scr;", 
+        "options": [
+            "scr is a pointer to pointer variable.", 
+            "scr is a function pointer.", 
+            "scr is a pointer to char.", 
+            "scr is a member of function pointer."
+        ], 
+        "ans": "C"
+    }
+]

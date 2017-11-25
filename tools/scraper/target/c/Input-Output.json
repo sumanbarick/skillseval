@@ -1,0 +1,100 @@
+[
+    {
+        "q": "In a file contains the line \"I am a boy\\r\\n\" then on reading this line into the array str using fgets(). What will str contain?", 
+        "options": [
+            "\"I am a boy\\r\\n\\0\"", 
+            "\"I am a boy\\r\\0\"", 
+            "\"I am a boy\\n\\0\"", 
+            "\"I am a boy\""
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What is the purpose of \"rb\" in fopen() function used below in the code?\nFILE *fp;\nfp = fopen(\"source.txt\", \"rb\");\n", 
+        "options": [
+            "open \"source.txt\" in binary mode for reading", 
+            "open \"source.txt\" in binary mode for reading and writing", 
+            "Create a new file \"source.txt\" for reading and writing", 
+            "None of above"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What does fp point to in the program ?\r\n#include<stdio.h>\r\n\r\nint main()\r\n{\r\n    FILE *fp;\r\n    fp=fopen(\"trial\", \"r\");\r\n    return 0;\r\n}\r\n", 
+        "options": [
+            "The first character in the file", 
+            "A structure which contains a char pointer which points to the first character of a file.", 
+            "The name of the file.", 
+            "The last character in the file."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following operations can be performed on the file \"NOTES.TXT\" using the below code?\nFILE *fp;\nfp = fopen(\"NOTES.TXT\", \"r+\");\n", 
+        "options": [
+            "Reading", 
+            "Writing", 
+            "Appending", 
+            "Read and Write"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "To print out a and b given below, which of the following printf() statement will you use?\n#include<stdio.h>\n\nfloat a=3.14;\ndouble b=3.14;\n", 
+        "options": [
+            "printf(\"%f %lf\", a, b);", 
+            "printf(\"%Lf %f\", a, b);", 
+            "printf(\"%Lf %Lf\", a, b);", 
+            "printf(\"%f %Lf\", a, b);"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which files will get closed through the fclose() in the following program?\n#include<stdio.h>\n\nint main()\n{\n    FILE *fs, *ft, *fp;\n    fp = fopen(\"A.C\", \"r\");\n    fs = fopen(\"B.C\", \"r\");\n    ft = fopen(\"C.C\", \"r\");\n    fclose(fp, fs, ft);\n    return 0;\n}\n", 
+        "options": [
+            "\"A.C\" \"B.C\" \"C.C\"", 
+            "\"B.C\" \"C.C\"", 
+            "\"A.C\"", 
+            "Error in fclose()"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "On executing the below program what will be the contents of 'target.txt' file if the source file contains a line \"To err is human\"?\n#include<stdio.h>\n\nint main()\n{\n    int i, fss;\n    char ch, source[20] = \"source.txt\", target[20]=\"target.txt\", t;\n    FILE *fs, *ft;\n    fs = fopen(source, \"r\");\n    ft = fopen(target, \"w\");\n    while(1)\n    {\n        ch=getc(fs);\n        if(ch==EOF)\n            break;\n        else\n        {\n            fseek(fs, 4L, SEEK_CUR);\n            fputc(ch, ft);\n        }\n    }\n    return 0;\n}\n", 
+        "options": [
+            "r n", 
+            "Trh", 
+            "err", 
+            "None of above"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "To scan a and b given below, which of the following scanf() statement will you use?\n#include<stdio.h>\n\nfloat a;\ndouble b;\n", 
+        "options": [
+            "scanf(\"%f %f\", &a, &b);", 
+            "scanf(\"%Lf %Lf\", &a, &b);", 
+            "scanf(\"%f %Lf\", &a, &b);", 
+            "scanf(\"%f %lf\", &a, &b);"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Out of fgets() and gets() which function is safe to use?", 
+        "options": [
+            "gets()", 
+            "fgets()"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Consider the following program and what will be content of t?\n#include<stdio.h>\n\nint main()\n{\n    FILE *fp;\n    int t;\n    fp = fopen(\"DUMMY.C\", \"w\");\n    t = fileno(fp);\n    printf(\"%d\\n\", t);\n    return 0;\n}\n", 
+        "options": [
+            "size of \"DUMMY.C\" file", 
+            "The handle associated with \"DUMMY.C\" file", 
+            "Garbage value", 
+            "Error in fileno()"
+        ], 
+        "ans": "B"
+    }
+]

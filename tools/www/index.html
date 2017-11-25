@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Knexaa Admin Tools</title>
+        <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+
+        <div class="header">
+            <a class="logo" href="">
+                <img src="img/knexaa-logo-3.png" alt="knexaa logo"/>
+            </a>
+            <h1 class="title">
+                Knexaa Admin Tools
+            </h1>            
+        </div>
+
+        <div class="container-fluid main-container">
+
+
+        <!-- ***************************************
+        ***               Text ENCRYPT             *
+        ********************************************-->
+        <div class="panel panel-primary">
+            <div class="panel-heading collapse-header">
+                <h3 class="panel-title">Text Encryption</h3>
+            </div>
+            <div class="panel-body collapse-body">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="input-group">
+                        <input id="src-text" type="text" class="form-control" placeholder="Enter the string to be encoded">
+                        <span class="input-group-btn">
+                            <button id="encrypt-string" class="btn btn-info" type="button">Encrypt</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 margin-top-25">
+                    <textarea id="encoded-src-text" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- *************************************** -->
+
+
+        <!-- ***************************************
+        ***            Text DECRYPTION             *
+        ********************************************-->
+        <div class="panel panel-primary">
+            <div class="panel-heading collapse-header">
+                <h3 class="panel-title">Text Decryption</h3>
+            </div>
+            <div class="panel-body collapse-body">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="input-group">
+                        <input id="encoded-text" type="text" class="form-control" placeholder="Enter the string to be encoded">
+                        <span class="input-group-btn">
+                            <button id="decrypt-string" class="btn btn-info" type="button">Decrypt</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 margin-top-25">
+                    <textarea id="decrypted-src-text" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- *************************************** -->
+
+        <!-- ***************************************
+        ***             UNIKEY ENCRYPT             *
+        ********************************************-->
+        <div class="panel panel-primary">
+            <div class="panel-heading collapse-header">
+                <h3 class="panel-title">Unikey Encryption</h3>
+            </div>
+            <div class="panel-body collapse-body">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="input-group">
+                        <input id="unikey-src" type="text" class="form-control" placeholder="Enter original unikey">
+                        <span class="input-group-btn">
+                            <button id="encrypt-unikey" class="btn btn-info" type="button">Encrypt</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 margin-top-25">
+                    <textarea id="out-encUnikey" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- *************************************** -->
+
+
+
+        <!-- ***************************************
+        ***             UNIKEY DECRYPT             *
+        ********************************************-->
+        <div class="panel panel-primary">
+            <div class="panel-heading collapse-header">
+                <h3 class="panel-title">Unikey Decryption</h3>
+            </div>
+            <div class="panel-body collapse-body">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="input-group">
+                        <input id="encrypted-unikey" type="text" class="form-control" placeholder="Enter encrypted unikey">
+                        <span class="input-group-btn">
+                            <button id="decrypt-unikey" class="btn btn-info" type="button">Decrypt</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 margin-top-25">
+                    <input type="text" id="out-decUnikey" class="form-control"></input>
+                </div>
+            </div>
+        </div>
+        <!-- *************************************** -->
+
+
+        <!-- ***************************************
+        ***             QA DECRYPT             *
+        ********************************************-->
+        <div class="panel panel-primary">
+            <div class="panel-heading collapse-header">
+                <h3 class="panel-title">Question Answer Decryption</h3>
+            </div>
+            <div class="panel-body collapse-body">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <textarea id="in-encrypted-qa" class="form-control"></textarea>
+                    <button id="decrypt-qa" class="btn btn-info pull-right margin-top-15" type="button">Decrypt QA</button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 margin-top-25">
+                    <div class="panel panel-primary hide">
+                        <div class="panel-heading collapse-header">
+                            <h3 class="panel-title">Decrypted QA</h3>
+                        </div>
+                        <div id="out-decrypted-qa" class="panel-body collapse-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- *************************************** -->    
+
+
+
+        </div>
+        <script type="text/javascript" src="lib/js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="lib/js/crypto-js.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

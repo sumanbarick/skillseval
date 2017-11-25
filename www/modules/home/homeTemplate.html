@@ -1,0 +1,13 @@
+<div data-ng-repeat="menu in vm.menuItems" class="col-xs-12 col-sm-6 col-md-3 icon-card">
+    <a class="inner-container" href="{{menu.url}}">
+        <div class="icon-container">
+            <span class="icon {{menu.icon}}"></span>
+        </div>
+        <div class="title font-rye">
+            <span>{{menu.name}}</span>
+        </div>
+        <p class="desc">
+            {{menu.desc}}
+        </p>
+    </a>
+</div>

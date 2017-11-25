@@ -1,0 +1,72 @@
+[
+    {
+        "q": "Which is true about an anonymous inner class?", 
+        "options": [
+            "It can extend exactly one class and implement exactly one interface.", 
+            "It can extend exactly one class and can implement multiple interfaces.", 
+            "It can extend exactly one class or implement exactly one interface.", 
+            "It can implement multiple interfaces regardless of whether it also extends a class."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "class Boo \n{\n    Boo(String s) { }\n    Boo() { }\n}\nclass Bar extends Boo \n{\n    Bar() { }\n    Bar(String s) {super(s);}\n    void zoo() \n    {\n    // insert code here\n    }\n}\n\nwhich one create an anonymous inner class from within class Bar?", 
+        "options": [
+            "Boo f = new Boo(24) { };", 
+            "Boo f = new Bar() { };", 
+            "Bar f = new Boo(String s) { };", 
+            "Boo f = new Boo.Bar(String s) { };"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which is true about a method-local inner class?", 
+        "options": [
+            "It must be marked final.", 
+            "It can be marked abstract.", 
+            "It can be marked public.", 
+            "It can be marked static."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which statement is true about a static nested class?", 
+        "options": [
+            "You must have a reference to an instance of the enclosing class in order to instantiate it.", 
+            "It does not have access to nonstatic members of the enclosing class.", 
+            "It's variables and methods must be static.", 
+            "It must extend the enclosing class."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which constructs an anonymous inner class instance?", 
+        "options": [
+            "Runnable r = new Runnable() { };", 
+            "Runnable r = new Runnable(public void run() { });", 
+            "Runnable r = new Runnable { public void run(){}};", 
+            "System.out.println(new Runnable() {public void run() { }});"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "class Foo \n{\n    class Bar{ }\n}\nclass Test \n{\n    public static void main (String [] args) \n    {\n        Foo f = new Foo();\n        /* Line 10: Missing statement ? */\n    }\n}\n\nwhich statement, inserted at line 10, creates an instance of Bar?", 
+        "options": [
+            "Foo.Bar b = new Foo.Bar();", 
+            "Foo.Bar b = f.new Bar();", 
+            "Bar b = new f.Bar();", 
+            "Bar b = f.new Bar();"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "public class MyOuter \n{\n    public static class MyInner \n    {\n        public static void foo() { }\n    }\n}\n \nwhich statement, if placed in a class other than MyOuter or MyInner, instantiates an instance of the nested class?", 
+        "options": [
+            "MyOuter.MyInner m = new MyOuter.MyInner();", 
+            "MyOuter.MyInner mi = new MyInner();", 
+            "MyOuter m = new MyOuter();MyOuter.MyInner mi = m.new MyOuter.MyInner();", 
+            "MyInner mi = new MyOuter.MyInner();"
+        ], 
+        "ans": "A"
+    }
+]

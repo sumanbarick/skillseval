@@ -1,0 +1,159 @@
+[
+    {
+        "q": "If a namespace is present in a library then which of the following is the correct way to use the elements of the namespace?", 
+        "options": [
+            "Add Reference of the namespace.Use the elements of the namespace.", 
+            "Add Reference of the namespace.Import the namespace.Use the elements of the namespace.", 
+            "Import the namespace.Use the elements of the namespace.", 
+            "Copy the library in the same directory as the project that is trying to use it.Use the elements of the namespace.", 
+            "Install the namespace in Global Assembly Cache.Use the elements of the namespace."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following is NOT a namespace in the  .NET Framework Class Library?", 
+        "options": [
+            "System.Process", 
+            "System.Security", 
+            "System.Threading", 
+            "System.Drawing", 
+            "System.Xml"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statments are the correct way to call the method Issue() defined in the code snippet given below?\nnamespace College\n{\n    namespace Lib\n    {\n        class Book\n        {\n            public void Issue()\n            {\n                // Implementation code\n            }\n        }\n        class Journal\n        {\n            public void Issue()\n            {\n                // Implementation code\n            }\n        }\n    }\n}\nCollege.Lib.Book b = new College.Lib.Book(); \nb.Issue();\nBook b = new Book(); \nb.Issue();\nusing College.Lib; \nBook b = new Book(); \nb.Issue();\nusing College;\nLib.Book b = new Lib.Book(); \nb.Issue();\nusing College.Lib.Book; \nBook b = new Book(); \nb.Issue();\n", 
+        "options": [
+            "1, 3", 
+            "2, 4", 
+            "3", 
+            "4, 5"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements is correct about a namespace in C#.NET?", 
+        "options": [
+            "Namespaces help us to control the visibility of the elements present in it.", 
+            "A namespace can contain a class but not another namespace.", 
+            "If not mentioned, then the name 'root' gets assigned to the namespace.", 
+            "It is necessary to use the using statement to be able to use an element of a namespace.", 
+            "We need to organise the classes declared in Framework Class Library into different namespaces."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following is absolutely neccessary to use a class Point present in namespace Graph stored in library?", 
+        "options": [
+            "Use fully qualified name of the Point class.", 
+            "Use using statement before using the Point class.", 
+            "Add Reference of the library before using the Point class.", 
+            "Use using statement before using the Point class.", 
+            "Copy the library into the current project directory before using the Point class."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "If a class called Point is present in namespace n1 as well as in namespace n2, then which of the following is the correct way to use the Point class?", 
+        "options": [
+            "namespace IndiabixConsoleApplication\n{ \n    class MyProgram\n    { \n        static void Main(string[] args)\n        { \n            import n1; \n            Point x = new Point();\n            x.fun();\n            import n2;\n            Point y = new Point(); \n            y.fun();\n        }\n    }\n}", 
+            "import n1; \nimport n2;\nnamespace IndiabixConsoleApplication\n{ \n    class MyProgram\n    { \n        static void Main(string[] args)\n        {\n            n1.Point x = new n1.Point(); \n            x.fun();\n            n2.Point y = new n2.Point(); \n            y.fun();\n        }\n    }\n}", 
+            "namespace IndiabixConsoleApplication\n{ \n    class MyProgram\n    {\n        static void Main(string[] args)\n        {\n            using n1;\n            Point x = new Point();\n            x.fun();\n            using n2;\n            Point y = new Point();\n            y.fun();\n        }\n    }\n}", 
+            "using n1;\nusing n2; \nnamespace IndiabixConsoleApplication\n{ \n    class MyProgram\n    { \n        static void Main(string[] args)\n        { \n            n1.Point x = new n1.Point(); \n            x.fun();\n            n2.Point y = new n2.Point(); \n            y.fun(); \n        } \n    } \n}"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the followings are NOT a .NET namespace?\nSystem.Web\nSystem.Process\nSystem.Data\nSystem.Drawing2D\nSystem.Drawing3D\n", 
+        "options": [
+            "1, 3", 
+            "2, 4, 5", 
+            "3, 5", 
+            "1, 2, 3"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements is correct about namespaces in C#.NET?", 
+        "options": [
+            "Namespaces can be nested only up to level 5.", 
+            "A namespace cannot be nested.", 
+            "There is no limit on the number of levels while nesting namespaces.", 
+            "If namespaces are nested, then it is necessary to use using statement while using the elements of the inner namespace.", 
+            "Nesting of namespaces is permitted, provided all the inner namespaces are declared in the same file."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following is correct way to rewrite the C#.NET code snippet given below?\nusing Microsoft.VisualBasic;\nusing System.Windows.Forms;\nMessageBox.Show(\"Wait for a\" + ControlChars.CrLf + \"miracle\");", 
+        "options": [
+            "using System.Windows.Forms;\nusing CtrlChars = Microsoft.VisualBasic.ControlChars; \nMessageBox.Show(\"Wait for a\" + CrLf + \"miracle\");", 
+            "using Microsoft.VisualBasic; \nusing System.Windows.Forms; \nCtrlChars = ControlChars;\nMessageBox.Show(\"Wait for a\" + CtrlChars.CrLf + \"miracle\");", 
+            "using Microsoft.VisualBasic; \nusing System.Windows.Forms; \nCtrlChars = ControlChars; \nMessageBox.Show (\"Wait for a\" + CrLf + \"miracle\");", 
+            "using System.Windows.Forms;\nusing CtrlChars = Microsoft.VisualBasic.ControlChars; \nMessageBox.Show(\"Wait for a\" + CtrlChars.CrLf + \"miracle\");"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the using statement used in C#.NET?", 
+        "options": [
+            "using statement can be placed anywhere in the C#.NET source code file.", 
+            "It is permitted to define a member at namespace level as a using alias.", 
+            "A C#.NET source code file can contain any number of using statement.", 
+            "By using using statement it is possible to create an alias for the namespace but not for the namespace element.", 
+            "By using using statement it is possible to create an alias for the namespace element but not for the namespace."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements are correct about a namespace used in C#.NET?\nClasses must belong to a namespace, whereas structures need not.\nEvery class, struct, enum, delegate and interlace has to belong to some or the other namespace.\nAll elements of the namespace have to belong to one file.\nIf not mentioned, a namespace takes the name of the current project.\nThe namespace should be imported to be able to use the elements in it.\n", 
+        "options": [
+            "1, 3", 
+            "2, 4, 5", 
+            "3, 5", 
+            "4 only"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following CANNOT belong to a C#.NET Namespace?", 
+        "options": [
+            "class", 
+            "struct", 
+            "enum", 
+            "Data", 
+            "interface"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements is correct about a namespace used in C#.NET?", 
+        "options": [
+            "Nested namespaces are not allowed.", 
+            "Importing outer namespace imports inner namespace.", 
+            "Nested namespaces are allowed.", 
+            "If nested, the namespaces cannot be split across files."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following C#.NET code snippets will correctly print \"Hello C#.NET\"?", 
+        "options": [
+            "import System; \nnamespace IndiabixConsoleApplication\n{ \n    class MyProgram\n    { \n        static void Main(string[] args)\n        { \n            Console.WriteLine(\"Hello C#.NET\");\n        } \n    } \n}", 
+            "using System;\nnamespace IndiabixConsoleApplication\n{ \n    class MyProgram\n    { \n        static void Main(string[ ] args)\n        { \n            WriteLine(\"Hello C#.NET\");\n        } \n    } \n}", 
+            "using System.Console; \nnamespace IndiabixConsoleApplication\n{ \n    class MyProgram\n    { \n        static void Main (string[ ] args)\n        { \n            WriteLine(\"Hello C#.NET\");\n        } \n    } \n}", 
+            "using System;\nnamespace IndiabixConsoleApplication\n{ \n    class MyProgram\n    { \n        static void Main(string[] args)\n        { \n            Console.WriteLine(\"Hello C#.NET\");\n        }\n    }\n}"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "If ListBox is class present in System.Windows.Forms namespace, then which of the following statements are the correct way to create an object of ListBox Class?\nusing System.Windows.Forms; \nListBox lb = new ListBox();\nusing LBControl = System.Windows.Forms;\nLBControl lb = new LBControl();\nSystem.Windows.Forms.ListBox lb = new System.Windows.Forms.ListBox();\nusing LBControl lb = new System.Windows.Forms.ListBox;\nusing LBControl = System.Windows.Forms.ListBox; \nLBControl lb = new LBControl();\n", 
+        "options": [
+            "1, 3", 
+            "2, 4, 5", 
+            "1, 3, 5", 
+            "5 only"
+        ], 
+        "ans": "C"
+    }
+]

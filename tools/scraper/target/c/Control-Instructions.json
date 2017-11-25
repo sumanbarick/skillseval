@@ -1,0 +1,52 @@
+[
+    {
+        "q": "How many times \"IndiaBIX\" is get printed?\n#include<stdio.h>\nint main()\n{\n    int x;\n    for(x=-1; x<=10; x++)\n    {\n        if(x < 5)\n            continue;\n        else\n            break;\n        printf(\"IndiaBIX\");\n    }\n    return 0;\n}\n", 
+        "options": [
+            "Infinite times", 
+            "11 times", 
+            "0 times", 
+            "10 times"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "How many times the while loop will get executed if a short int is 2 byte wide?\r\n#include<stdio.h>\r\nint main()\r\n{\r\n    int j=1;\r\n    while(j <= 255)\r\n    {\r\n        printf(\"%c %d\\n\", j, j);\r\n        j++;\r\n    }\r\n    return 0;\r\n}\r\n", 
+        "options": [
+            "Infinite times", 
+            "255 times", 
+            "256 times", 
+            "254 times"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following is not logical operator?", 
+        "options": [
+            "&", 
+            "&&", 
+            "||", 
+            "!"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "In mathematics and computer programming, which is the correct order of mathematical operators ?", 
+        "options": [
+            "Addition, Subtraction, Multiplication, Division", 
+            "Division, Multiplication, Addition, Subtraction", 
+            "Multiplication, Addition, Division, Subtraction", 
+            "Addition, Division, Modulus, Subtraction"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following cannot be checked in a switch-case statement?", 
+        "options": [
+            "Character", 
+            "Integer", 
+            "Float", 
+            "enum"
+        ], 
+        "ans": "C"
+    }
+]

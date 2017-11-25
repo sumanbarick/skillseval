@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Try</title>
+    <script type="text/javascript" src="bower_components/crypto-js/crypto-js.js"></script>
+    <style type="text/css">
+        textarea {
+            height: 100px;
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="original"></textarea>
+    <br/>
+    <button type="button" onclick="encrypt()">Encrypt</button>
+    <br/><br/>
+    Encrypted
+    <br/>
+    <textarea id="ecrypted"></textarea>
+    <br/>
+    <br/>
+    Decrypted
+    <br/>
+    <textarea id="decrypted"></textarea>
+
+    <script>
+        var key = "_S6h1K!N8c$7FkM-W#92yTix$@X9sZ";
+        function encrypt() {
+            var value = document.getElementById('original').value;
+            var en = CryptoJS.AES.encrypt(value, key);
+            document.getElementById('ecrypted').value = en;
+
+            document.getElementById('decrypted').value = CryptoJS.AES.decrypt(en, key).toString(CryptoJS.enc.Utf8);
+        }
+    </script>
+</body>
+</html>

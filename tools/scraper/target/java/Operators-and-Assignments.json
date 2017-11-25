@@ -1,0 +1,153 @@
+[
+    {
+        "q": "What will be the output of the program?\nclass PassA \n{\n    public static void main(String [] args) \n    {\n        PassA p = new PassA();\n        p.start();\n    }\n\n    void start() \n    {\n        long [] a1 = {3,4,5};\n        long [] a2 = fix(a1);\n        System.out.print(a1[0] + a1[1] + a1[2] + \" \");\n        System.out.println(a2[0] + a2[1] + a2[2]);\n    }\n\n    long [] fix(long [] a3) \n    {\n        a3[1] = 7;\n        return a3;\n    }\n}\n", 
+        "options": [
+            "12 15", 
+            "15 15", 
+            "3 4 5 3 7 5", 
+            "3 7 5 3 7 5"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass Test \n{\n    public static void main(String [] args) \n    {\n        Test p = new Test();\n        p.start();\n    }\n\n    void start() \n    {\n        boolean b1 = false;\n        boolean b2 = fix(b1);\n        System.out.println(b1 + \" \" + b2);\n    }\n\n    boolean fix(boolean b1) \n    {\n        b1 = true;\n        return b1;\n    }\n}\n", 
+        "options": [
+            "true true", 
+            "false true", 
+            "true false", 
+            "false false"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass PassS \n{\n    public static void main(String [] args) \n    {\n        PassS p = new PassS();\n        p.start();\n    }\n\n    void start() \n    {\n        String s1 = \"slip\";\n        String s2 = fix(s1);\n        System.out.println(s1 + \" \" + s2);\n    }\n\n    String fix(String s1) \n    {\n        s1 = s1 + \"stream\";\n        System.out.print(s1 + \" \");\n        return \"stream\";\n    }\n}\n", 
+        "options": [
+            "slip stream", 
+            "slipstream stream", 
+            "stream slip stream", 
+            "slipstream slip stream"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass BitShift \n{\n    public static void main(String [] args) \n    {\n        int x = 0x80000000;\n        System.out.print(x + \" and  \");\n        x = x >>> 31;\n        System.out.println(x);\n    }\n}\n", 
+        "options": [
+            "-2147483648 and 1", 
+            "0x80000000 and 0x00000001", 
+            "-2147483648 and -1", 
+            "1 and -2147483648"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass Equals \n{\n    public static void main(String [] args) \n    {\n        int x = 100;\n        double y = 100.1;\n        boolean b = (x = y); /* Line 7 */\n        System.out.println(b);\n    }\n}\n", 
+        "options": [
+            "true", 
+            "false", 
+            "Compilation fails", 
+            "An exception is thrown at runtime"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass Test \n{\n    public static void main(String [] args) \n    {\n        int x=20;\n        String sup = (x < 15) ? \"small\" : (x < 22)? \"tiny\" : \"huge\";\n        System.out.println(sup);\n    }\n}\n", 
+        "options": [
+            "small", 
+            "tiny", 
+            "huge", 
+            "Compilation fails"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass Test \n{\n    public static void main(String [] args) \n    {\n        int x= 0;\n        int y= 0;\n        for (int z = 0; z < 5; z++) \n        {\n            if (( ++x > 2 ) && (++y > 2)) \n            {\n                x++;\n            }\n        }\n        System.out.println(x + \" \" + y);\n    }\n}\n", 
+        "options": [
+            "5 2", 
+            "5 3", 
+            "6 3", 
+            "6 4"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass Test \n{\n    public static void main(String [] args) \n    {\n        int x= 0;\n        int y= 0;\n        for (int z = 0; z < 5; z++) \n        {\n            if (( ++x > 2 ) || (++y > 2)) \n            {\n                x++;\n            }\n        }\n    System.out.println(x + \" \" + y);\n    }\n}\n", 
+        "options": [
+            "5 3", 
+            "8 2", 
+            "8 3", 
+            "8 5"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass Bitwise \n{\n    public static void main(String [] args) \n    {\n        int x = 11 & 9;\n        int y = x ^ 3;\n        System.out.println( y | 12 );\n    }\n}\n", 
+        "options": [
+            "0", 
+            "7", 
+            "8", 
+            "14"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass SSBool \n{\n    public static void main(String [] args) \n    {\n        boolean b1 = true;\n        boolean b2 = false;\n        boolean b3 = true;\n        if ( b1 & b2 | b2 & b3 | b2 ) /* Line 8 */\n            System.out.print(\"ok \");\n        if ( b1 & b2 | b2 & b3 | b2 | b1 ) /*Line 10*/\n            System.out.println(\"dokey\");\n    }\n}\n", 
+        "options": [
+            "ok", 
+            "dokey", 
+            "ok dokey", 
+            "No output is produced", 
+            "Compilation error"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass SC2 \n{\n    public static void main(String [] args) \n    {\n        SC2 s = new SC2();\n        s.start();\n    }\n\n    void start() \n    {\n        int a = 3;\n        int b = 4;\n        System.out.print(\" \" + 7 + 2 + \" \");\n        System.out.print(a + b);\n        System.out.print(\" \" + a + b + \" \");\n        System.out.print(foo() + a + b + \" \");\n        System.out.println(a + b + foo());\n    }\n\n    String foo() \n    {\n        return \"foo\";\n    }\n}\n", 
+        "options": [
+            "9 7 7 foo 7 7foo", 
+            "72 34 34 foo34 34foo", 
+            "9 7 7 foo34 34foo", 
+            "72 7 34 foo34 7foo"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass Test \n{\n    static int s;\n    public static void main(String [] args) \n    {\n        Test p = new Test();\n        p.start();\n        System.out.println(s);\n    }\n\n    void start() \n    {\n        int x = 7;\n        twice(x);\n        System.out.print(x + \" \");\n    }\n\n    void twice(int x) \n    {\n        x = x*2;\n        s = x;\n    }\n}\n", 
+        "options": [
+            "7 7", 
+            "7 14", 
+            "14 0", 
+            "14 14"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass Two \n{\n    byte x;\n}\n\nclass PassO \n{\n    public static void main(String [] args) \n    {\n        PassO p = new PassO();\n        p.start();\n    }\n\n    void start() \n    {\n        Two t = new Two();\n        System.out.print(t.x + \" \");\n        Two t2 = fix(t);\n        System.out.println(t.x + \" \" + t2.x);\n    }\n\n    Two fix(Two tt) \n    {\n        tt.x = 42;\n        return tt;\n    }\n}\n", 
+        "options": [
+            "null null 42", 
+            "0 0 42", 
+            "0 42 42", 
+            "0 0 0"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\nclass BoolArray \n{\n    boolean [] b = new boolean[3];\n    int count = 0;\n\n    void set(boolean [] x, int i) \n    {\n        x[i] = true;\n        ++count;\n    }\n\n    public static void main(String [] args) \n    {\n        BoolArray ba = new BoolArray();\n        ba.set(ba.b, 0);\n        ba.set(ba.b, 2);\n        ba.test();\n    }\n\n    void test() \n    {\n        if ( b[0] && b[1] | b[2] )\n            count++;\n        if ( b[1] && b[(++count - 2)] )\n            count += 7;\n        System.out.println(\"count = \" + count);\n    }\n}\n", 
+        "options": [
+            "count = 0", 
+            "count = 2", 
+            "count = 3", 
+            "count = 4"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the program?\npublic class Test \n{ \n    public static void leftshift(int i, int j) \n    {\n        i <<= j; \n    } \n    public static void main(String args[]) \n    {\n        int i = 4, j = 2; \n        leftshift(i, j); \n        System.out.printIn(i); \n    } \n}\n", 
+        "options": [
+            "2", 
+            "4", 
+            "8", 
+            "16"
+        ], 
+        "ans": "B"
+    }
+]

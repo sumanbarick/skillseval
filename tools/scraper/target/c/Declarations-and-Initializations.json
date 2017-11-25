@@ -1,0 +1,112 @@
+[
+    {
+        "q": "Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ?", 
+        "options": [
+            "rem = 3.14 % 2.1;", 
+            "rem = modf(3.14, 2.1);", 
+            "rem = fmod(3.14, 2.1);", 
+            "Remainder cannot be obtain in floating point division."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What are the types of linkages?", 
+        "options": [
+            "Internal and External", 
+            "External, Internal and None", 
+            "External and None", 
+            "Internal"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following special symbol allowed in a variable name?", 
+        "options": [
+            "* (asterisk)", 
+            "| (pipeline)", 
+            "- (hyphen)", 
+            "_ (underscore)"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Is there any difference between following declarations?\n\n\n1 :\nextern int fun();\n\n\n2 :\nint fun();\n\n", 
+        "options": [
+            "Both are identical", 
+            "No difference, except extern int fun(); is probably in another file", 
+            "int fun(); is overrided with extern int fun();", 
+            "None of these"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "How would you round off a value from 1.66 to 2.0?", 
+        "options": [
+            "ceil(1.66)", 
+            "floor(1.66)", 
+            "roundup(1.66)", 
+            "roundto(1.66)"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "By default a real number is treated as a", 
+        "options": [
+            "float", 
+            "double", 
+            "long double", 
+            "far double"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following is not user defined data type?\r\n\n\n1 :\nstruct book\r\n{\r\n    char name[10];\r\n    float price;\r\n    int pages;\r\n};\n\n\n2 :\nlong int l = 2.35;\n\n\n3 :\nenum day {Sun, Mon, Tue, Wed};\n\n", 
+        "options": [
+            "1", 
+            "2", 
+            "3", 
+            "Both 1 and 2"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Is the following statement a declaration or definition?\nextern int i;", 
+        "options": [
+            "Declaration", 
+            "Definition", 
+            "Function", 
+            "Error"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Identify which of the following are declarations\r\n\n\n1 :\nextern int x;\n\n\n2 :\nfloat square ( float x ) { ... }\n\n\n3 :\ndouble pow(double, double);\n\n", 
+        "options": [
+            "1", 
+            "2", 
+            "1 and 3", 
+            "3"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "In the following program where is the variable a getting defined and where it is getting declared?\n#include<stdio.h>\nint main()\n{\n    extern int a;\n    printf(\"%d\\n\", a);\n    return 0;\n}\nint a=20;\n", 
+        "options": [
+            "extern int a is declaration, int a = 20 is the definition", 
+            "int a = 20 is declaration, extern int a is the definition", 
+            "int a = 20 is definition, a is not defined", 
+            "a is declared, a is not defined"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "When we mention the prototype of a function?", 
+        "options": [
+            "Defining", 
+            "Declaring", 
+            "Prototyping", 
+            "Calling"
+        ], 
+        "ans": "B"
+    }
+]

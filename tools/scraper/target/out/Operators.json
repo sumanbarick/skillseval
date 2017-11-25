@@ -1,0 +1,217 @@
+[
+    {
+        "q": "Which of the following are the correct ways to increment the value of variable a by 1?\n++a++;\na += 1;\na ++ 1;\na = a +1;\na = +1;\n", 
+        "options": [
+            "1, 3", 
+            "2, 4", 
+            "3, 5", 
+            "4, 5", 
+            "None of these"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the C#.NET code snippet given below?\nbyte b1 = 0xF7;\nbyte b2 = 0xAB;\nbyte temp;\ntemp = (byte)(b1 & b2);\nConsole.Write (temp + \" \");\ntemp = (byte)(b1^b2);\nConsole.WriteLine(temp);", 
+        "options": [
+            "163 92", 
+            "92 163", 
+            "192 63", 
+            "0 1"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following is NOT an Arithmetic operator in C#.NET?", 
+        "options": [
+            "**", 
+            "+", 
+            "/", 
+            "%", 
+            "*"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following are NOT Relational operators in C#.NET?\n>=\n!=\nNot\n<=\n<>=\n", 
+        "options": [
+            "1, 3", 
+            "2, 4", 
+            "3, 5", 
+            "4, 5", 
+            "None of these"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following is NOT a Bitwise operator in C#.NET?", 
+        "options": [
+            "&", 
+            "|", 
+            "<<", 
+            "^", 
+            "~"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\nint d; \nd = Convert.ToInt32( !(30 < 20) );", 
+        "options": [
+            "A value 0 will be assigned to d.", 
+            "A value 1 will be assigned to d.", 
+            "A value -1 will be assigned to d.", 
+            "The code reports an error.", 
+            "The code snippet will work correctly if ! is replaced by Not."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following is the correct output for the C#.NET code snippet given below?\nConsole.WriteLine(13 / 2 + \" \" + 13 % 2); ", 
+        "options": [
+            "6.5 1", 
+            "6.5 0", 
+            "6 0", 
+            "6 1", 
+            "6.5 6.5"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements are correct about the Bitwise & operator used in C#.NET?\nThe & operator can be used to Invert a bit.\nThe & operator can be used to put ON a bit.\nThe & operator can be used to put OFF a bit.\nThe & operator can be used to check whether a bit is ON.\nThe & operator can be used to check whether a bit is OFF.\n", 
+        "options": [
+            "1, 2, 4", 
+            "2, 3, 5", 
+            "3, 4", 
+            "3, 4, 5", 
+            "None of these"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following are Logical operators in C#.NET?\n&&\n||\n!\nXor\n%\n", 
+        "options": [
+            "1, 2, 3", 
+            "1, 3, 4", 
+            "2, 4, 5", 
+            "3, 4, 5", 
+            "None of these"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Suppose n is a variable of the type Byte and we wish, to check whether its fourth bit (from right) is ON or OFF. Which of the following statements will do this correctly?", 
+        "options": [
+            "if ((n&16) == 16)\nConsole.WriteLine(\"Fourth bit is ON\");", 
+            "if ((n&8) == 8)\nConsole.WriteLine(\"Fourth bit is ON\");", 
+            "if ((n ! 8) == 8)\nConsole.WriteLine(\"Fourth bit is ON\");", 
+            "if ((n ^ 8) == 8)\nConsole.WriteLine(\"Fourth bit is ON\");", 
+            "if ((n ~ 8) == 8)\nConsole. WriteLine(\"Fourth bit is ON\");"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the C#.NET code snippet given below? \nint num = 1, z = 5;\n\nif (!(num <= 0))\n    Console.WriteLine( ++num + z++ + \" \" + ++z ); \nelse\n    Console.WriteLine( --num + z-- + \" \" + --z ); ", 
+        "options": [
+            "5 6", 
+            "6 5", 
+            "6 6", 
+            "7 7"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Suppose n is a variable of the type Byte and we wish to put OFF its fourth bit (from right) without disturbing any other bits. Which of the following statements will do this correctly?", 
+        "options": [
+            "n = n && HF7", 
+            "n = n & 16", 
+            "n = n & 0xF7", 
+            "n = n & HexF7", 
+            "n = n & 8"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the C#.NET code snippet given below?\nbyte b1 = 0xAB;\nbyte b2 = 0x99;\nbyte temp;\ntemp = (byte)~b2;\nConsole.Write(temp + \" \");\ntemp = (byte)(b1 << b2);\nConsole.Write (temp + \" \");\ntemp = (byte) (b2 >> 2);\nConsole.WriteLine(temp);", 
+        "options": [
+            "102 1 38", 
+            "108 0 32", 
+            "102 0 38", 
+            "1 0 1"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements is correct about Bitwise | operator used in C#.NET?", 
+        "options": [
+            "The | operator can be used to put OFF a bit.", 
+            "The | operator can be used to Invert a bit.", 
+            "The | operator can be used to check whether a bit is ON.", 
+            "The | operator can be used to check whether a bit is OFF.", 
+            "The | operator can be used to put ON a bit."
+        ], 
+        "ans": "E"
+    }, 
+    {
+        "q": "Which  of the  following  is  NOT an Assignment operator in C#.NET?", 
+        "options": [
+            "\\=", 
+            "/=", 
+            "*=", 
+            "+=", 
+            "%="
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "What will be the output of the C#.NET code snippet given below?\nint i, j = 1, k;\nfor (i = 0; i < 5; i++)\n{\n    k = j++ + ++j;\n    Console.Write(k + \" \");\n}", 
+        "options": [
+            "8 4 16 12 20", 
+            "4 8 12 16 20", 
+            "4 8 16 32 64", 
+            "2 4 6 8 10"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What will be the output of the C#.NET code snippet given below?\nint a = 10, b = 20, c = 30; \nint res = a < b ? a < c ? c : a : b; \nConsole.WriteLine(res);", 
+        "options": [
+            "10", 
+            "20", 
+            "30", 
+            "Compile Error / Syntax Error"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements are correct about the following code snippet?\nint a = 10; \nint b = 20;\nbool c;\nc = !(a > b);\nThere is no error in the code snippet.\nAn error will be reported since ! can work only with an int.\nA value 1 will be assigned to c.\nA value True will be assigned to c.\nA value False will be assigned to c.\n", 
+        "options": [
+            "1, 3", 
+            "2, 4", 
+            "4, 5", 
+            "1, 4", 
+            "None of these"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements is correct about Bitwise ^ operator used in C#.NET?", 
+        "options": [
+            "The ^ operator can be used to put ON a bit.", 
+            "The ^ operator can be used to put OFF a bit.", 
+            "The ^ operator can be used to Invert a bit.", 
+            "The ^ operator can be used to check whether a bit is ON.", 
+            "The ^ operator can be used to check whether a bit is OFF."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements are correct?\nThe conditional operator (?:) returns one of two values depending on the value of a Boolean expression.\nThe as operator in C#.NET is used to perform conversions between compatible reference types.\nThe &* operator is also used to declare pointer types and to dereference pointers.\nThe -> operator combines pointer dereferencing and member access.\nIn addition to being used to specify the order of operations in an expression, brackets [ ] are used to specify casts or type conversions.\n", 
+        "options": [
+            "1, 2, 4", 
+            "2, 3, 5", 
+            "3, 4, 5", 
+            "1, 3, 5", 
+            "None of these"
+        ], 
+        "ans": "A"
+    }
+]

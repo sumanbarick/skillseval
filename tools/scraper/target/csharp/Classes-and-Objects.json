@@ -1,0 +1,175 @@
+[
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\nclass Student s1, s2; // Here 'Student' is a user-defined class.\ns1 = new Student(); \ns2 = new Student();", 
+        "options": [
+            "Contents of s1 and s2 will be exactly same.", 
+            "The two objects will get created on the stack.", 
+            "Contents of the two objects created will be exactly same.", 
+            "The two objects will always be created in adjacent memory locations.", 
+            "We should use delete() to delete the two objects from memory."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\nclass Sample\n{\n    private int i;\n    public Single j;\n    private void DisplayData()\n    {\n        Console.WriteLine(i + \" \" + j);\n    }\n    public void ShowData()\n    {\n        Console.WriteLine(i + \" \" + j);\n    }\n}", 
+        "options": [
+            "j cannot be declared as public.", 
+            "DisplayData() cannot be declared as private.", 
+            "DisplayData() cannot access j.", 
+            "ShowData() cannot access to i.", 
+            "There is no error in this class."
+        ], 
+        "ans": "E"
+    }, 
+    {
+        "q": "Which of the following statements are correct?\nInstance members of a class can be accessed only through an object of that class.\nA class can contain only instance data and instance member function.\nAll objects created from a class will occupy equal number of bytes in memory.\nA class can contain Friend functions.\nA class is a blueprint or a template according to which objects are created.\n", 
+        "options": [
+            "1, 3, 5", 
+            "2, 4", 
+            "3, 5", 
+            "2, 4, 5", 
+            "None of these"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements is correct?", 
+        "options": [
+            "Procedural Programming paradigm is different than structured programming paradigm.", 
+            "Object Oriented Programming paradigm stresses on dividing the logic into smaller parts and writing procedures for each part.", 
+            "Classes and objects are corner stones of structured programming paradigm.", 
+            "Object    Oriented    Programming    paradigm    gives    equal importance to data and the procedures that work on the data.", 
+            "C#.NET is a structured programming language."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following is the correct way to create an object of the class Sample?\nSample s = new Sample();\nSample s;\nSample s; s = new Sample();\ns = new Sample();\n", 
+        "options": [
+            "1, 3", 
+            "2, 4", 
+            "1, 2, 3", 
+            "1, 4", 
+            "None of these"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following will be the correct output for the C#.NET program given below?\nnamespace IndiabixConsoleApplication\n{ \n    class Sample\n    { \n        int i; \n        Single j; \n        public void SetData(int i, Single j)\n        { \n            i = i;\n            j = j;\n        }\n        public void Display()\n        { \n            Console.WriteLine(i + \" \" + j);\n        } \n    } \n    class MyProgram\n    { \n        static void Main(string[ ] args)\n        { \n            Sample s1 = new Sample();\n            s1.SetData(10, 5.4f); \n            s1.Display(); \n        } \n    } \n}", 
+        "options": [
+            "0 0", 
+            "10 5.4", 
+            "10 5.400000", 
+            "10 5", 
+            "None of the above"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "The this reference gets created when a member function (non-shared) of a class is called.", 
+        "options": [
+            "True", 
+            "False"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements are correct?\nData members ofa class are by default public.\nData members of a class are by default private.\nMember functions of a class are by default public.\nA private function of a class can access a public function within the same class.\nMember function of a class are by default private.\n", 
+        "options": [
+            "1, 3, 5", 
+            "1, 4", 
+            "2, 4, 5", 
+            "1, 2, 3", 
+            "None of these"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\nnamespace IndiabixConsoleApplication\n{ \n    class Sample\n    { \n        public int index; \n        public int[] arr = new int[10]; \n        \n        public void fun(int i, int val)\n        { \n            arr[i] = val;\n        }\n    }\n     \n    class MyProgram\n    { \n        static void Main(string[] args)\n        {\n            Sample s = new Sample(); \n            s.index = 20; \n            Sample.fun(1, 5); \n            s.fun(1, 5); \n        } \n    } \n}", 
+        "options": [
+            "s.index = 20 will report an error since index is public.", 
+            "The call s.fun(1, 5) will work correctly.", 
+            "Sample.fun(1, 5) will set a value 5 in arr[ 1 ].", 
+            "The call Sample.fun(1, 5) cannot work since fun() is not a shared function.", 
+            "arr being a data member, we cannot declare it as public."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements are correct about the C#.NET code snippet given below?\nsample c;\nc = new sample();\nIt will create an object called sample.\nIt will create a nameless object of the type sample.\nIt will create an object of the type sample on the stack.\nIt will create a reference c on the stack and an object of the type sample on the heap.\nIt will create an object of the type sample either on the heap or on the stack depending on the size of the object.\n", 
+        "options": [
+            "1, 3", 
+            "2, 4", 
+            "3, 5", 
+            "4, 5", 
+            "None of these"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\nint i;\nint j = new int();\ni = 10;\nj = 20; \nString str; \nstr = i.ToString(); \nstr = j.ToString();", 
+        "options": [
+            "This is a perfectly workable code snippet.", 
+            "Since int is a primitive, we cannot use new with it.", 
+            "Since an int is a primitive, we cannot call the method ToString() using it.", 
+            "i will get created on stack, whereas j will get created on heap.", 
+            "Both i and j will get created on heap."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements are correct about the this reference?\nthis reference can be modified in the instance member function of a class.\nStatic functions of a class never receive the this reference.\nInstance member functions of a class always receive a this reference.\nthis reference continues to exist even after control returns from an instance member function.\nWhile  calling an  instance  member function we  are  not required to pass the this reference explicitly.\n", 
+        "options": [
+            "1, 4", 
+            "2, 3, 5", 
+            "3, 4", 
+            "2, 5", 
+            "None of these"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following will be the correct output for the C#.NET program given below?\nnamespace IndiabixConsoleApplication\n{ \n    class Sample\n    { \n        int i; \n        Single j; \n        public void SetData(int i, Single j)\n        { \n            this.i = i; \n            this.j = j;\n        }\n        public void Display()\n        { \n            Console.WriteLine(i + \" \" + j);\n        } \n    } \n    class MyProgram\n    { \n        static void Main(string[ ] args)\n        {\n            Sample s1 = new Sample(); \n            s1.SetData(36, 5.4f); \n            s1.Display(); \n        } \n    } \n}", 
+        "options": [
+            "0 0.0", 
+            "36 5.4", 
+            "36 5.400000", 
+            "36 5", 
+            "None of the above"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements are correct about objects of a user-defined class called Sample?\nAll objects of Sample class will always have exactly same data.\nObjects of Sample class may have same or different data.\nWhether objects of Sample class will have same or different data depends upon a Project Setting made in Visual Studio.NET.\nConceptually, each object of Sample class will have instance data and instance member functions of the Sample class.\nAll objects of Sample class will share one copy of member functions.\n", 
+        "options": [
+            "1, 3", 
+            "2, 4", 
+            "4, 5", 
+            "3, 5", 
+            "None of these"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements are correct about the C#.NET code snippet given below?\nnamespace IndiabixConsoleApplication\n{ \n    class Sample\n    { \n        int i, j; \n        public void SetData(int ii, int jj)\n        {\n            this.i = ii;\n            this.j = jj \n        } \n    } \n    class MyProgram\n    { \n        static void Main(string[ ] args)\n        { \n            Sample s1 = new Sample(); \n            s1.SetData(10, 2); \n            Sample s2 = new Sample(); \n            s2.SetData(5, 10); \n        } \n    } \n}", 
+        "options": [
+            "The code will not compile since we cannot explicitly use this.", 
+            "Using this in this program is necessary to properly set the values in the object.", 
+            "The call to SetData() is wrong since we have not explicitly passed the this reference to it.", 
+            "The definition of SetData() is wrong since we have not explicitly collected the this reference.", 
+            "Contents of this will be different during each call to SetData()."
+        ], 
+        "ans": "E"
+    }, 
+    {
+        "q": "Which of the following statements is correct about classes and objects in C#.NET?", 
+        "options": [
+            "Class is a value type.", 
+            "Since objects are typically big in size, they are created on the stack.", 
+            "Objects of smaller size are created on the heap.", 
+            "Smaller objects that get created on the stack can be given names.", 
+            "Objects are always nameless."
+        ], 
+        "ans": "E"
+    }
+]

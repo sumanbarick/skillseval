@@ -1,0 +1,42 @@
+[
+    {
+        "q": "public void foo( boolean a, boolean b)\n{ \n    if( a ) \n    {\n        System.out.println(\"A\"); /* Line 5 */\n    } \n    else if(a && b) /* Line 7 */\n    { \n        System.out.println( \"A && B\"); \n    } \n    else /* Line 11 */\n    { \n        if ( !b ) \n        {\n            System.out.println( \"notB\") ;\n        } \n        else \n        {\n            System.out.println( \"ELSE\" ) ; \n        } \n    } \n}\n", 
+        "options": [
+            "If a is true and b is true then the output is \"A && B\"", 
+            "If a is true and b is false then the output is \"notB\"", 
+            "If a is false and b is true then the output is \"ELSE\"", 
+            "If a is false and b is false then the output is \"ELSE\""
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "switch(x) \n{ \n    default:  \n        System.out.println(\"Hello\"); \n}\n\nWhich two are acceptable types for x?\n\nbyte\nlong\nchar\nfloat\nShort\nLong\n", 
+        "options": [
+            "1 and 3", 
+            "2 and 4", 
+            "3 and 5", 
+            "4 and 6"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "public void test(int x) \n{ \n    int odd = 1; \n    if(odd) /* Line 4 */\n    {\n        System.out.println(\"odd\"); \n    } \n    else \n    {\n        System.out.println(\"even\"); \n    } \n}\n\nWhich statement is true?", 
+        "options": [
+            "Compilation fails.", 
+            "\"odd\" will always be output.", 
+            "\"even\" will always be output.", 
+            "\"odd\" will be output for odd values of x, and \"even\" for even values."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "public class While \n{\n    public void loop() \n    {\n        int x= 0;\n        while ( 1 ) /* Line 6 */\n        {\n            System.out.print(\"x plus one is \" + (x + 1)); /* Line 8 */\n        }\n    }\n}\n\nWhich statement is true?", 
+        "options": [
+            "There is a syntax error on line 1.", 
+            "There are syntax errors on lines 1 and 6.", 
+            "There are syntax errors on lines 1, 6, and 8.", 
+            "There is a syntax error on line 6."
+        ], 
+        "ans": "D"
+    }
+]

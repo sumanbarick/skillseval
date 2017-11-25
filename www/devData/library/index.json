@@ -1,0 +1,34 @@
+{
+	"groupLibName": "index",
+	"groupSubjectType": "library",	
+	"list":
+	[
+		{
+			"name": "Coding"
+		},
+		{
+			"name": "Engineering"
+		},
+		{
+			"name": "Aptitude & Reasoning",
+			"subjectType": "topic"
+		},
+		{
+			"name": "English",
+			"subjectType": "topic"
+		},
+		{
+			"name": "Mathematics"
+		},
+		{
+			"name": "General Knowledge",
+			"subjectType": "topic"
+		},
+		{
+			"name": "MBA"
+		},
+		{
+			"name": "Science"
+		}
+	]
+}

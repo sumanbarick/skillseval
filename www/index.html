@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html data-ng-app="skillseval">
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: http://barick.in https://sumanbarick.bitbucket.io gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src *; media-src *">
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/favicon/manifest.json">        
+
+        <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <link rel="stylesheet" type="text/css" href="css/print.css">
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+
+        <title>KNEXAA - Knowledge.Exam.Anytime.Anywhere</title>
+    </head>
+
+    <body data-ng-controller="mainController as mvm" data-ng-class="{'app': !!$root.isMobileApp, 'web': !$root.isMobileApp}">
+        <div data-ng-include="'partials/loading.html'" class="no-print"></div>
+        <div data-ng-include="'partials/header.html'" class="no-print"></div>
+        <div class="container-fluid main-container">            
+            <div data-ng-view=""></div>
+        </div>
+
+        <!-- JAVASCRIPT SECTION -->
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+        
+        <script type="text/javascript" src="lib/js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="lib/js/angular.min.js"></script>
+        <script type="text/javascript" src="lib/js/angular-route.min.js"></script>
+        <script type="text/javascript" src="lib/js/crypto-js.js"></script>
+
+
+        <script type="text/javascript" src="scripts/properties.js"></script>
+        
+        <!-- Following Files are Merged and Minified -->
+        <!-- 
+        <script type="text/javascript" src="scripts/app.js"></script>      
+        <script type="text/javascript" src="modules/common/secretService.js"></script>
+        <script type="text/javascript" src="modules/common/modalService.js"></script>
+        <script type="text/javascript" src="modules/common/routerService.js"></script>
+        <script type="text/javascript" src="modules/common/urlService.js"></script>
+        <script type="text/javascript" src="modules/common/ajaxService.js"></script>
+        <script type="text/javascript" src="modules/exam/examService.js"></script>
+        <script type="text/javascript" src="modules/exam/examController.js"></script>
+        <script type="text/javascript" src="modules/exam/examResultController.js"></script>
+        <script type="text/javascript" src="modules/exam/certificateController.js"></script>
+        <script type="text/javascript" src="modules/exam/viewCertificateController.js"></script>
+        <script type="text/javascript" src="modules/common/mainController.js"></script>
+        <script type="text/javascript" src="modules/home/homeController.js"></script>
+        <script type="text/javascript" src="modules/library/libraryService.js"></script>
+        <script type="text/javascript" src="modules/library/libraryController.js"></script>
+        <script type="text/javascript" src="modules/topic/topicService.js"></script>
+        <script type="text/javascript" src="modules/topic/topicController.js"></script>
+        <script type="text/javascript" src="scripts/router.js"></script>
+       -->
+        
+        <!-- Minified JS Files -->
+        <script type="text/javascript" src="dist/js/nexaa.js"></script>
+        <script type="text/javascript" src="dist/js/templates.js"></script>
+
+    </body>
+</html>

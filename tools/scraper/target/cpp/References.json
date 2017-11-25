@@ -1,0 +1,172 @@
+[
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "A reference is stored on heap.", 
+            "A reference is stored on stack.", 
+            "A reference is stored in a queue.", 
+            "A reference is stored in a binary tree."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements is correct?\n  Once a reference variable has been defined to refer to a particular variable it can refer to any other variable.\n  A reference is not a constant pointer.\n", 
+        "options": [
+            "Only 1 is correct.", 
+            "Only 2 is correct.", 
+            "Both 1 and 2 are correct.", 
+            "Both 1 and 2 are incorrect."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Functions can be declared to return a reference type. There are reasons to make such a declaration/Which of the following reasons are correct?\n  The information being returned is a large enough object that returning a reference is more efficient than returning a copy. \n  The type of the function must be a R-value.\n", 
+        "options": [
+            "Only 1 is correct.", 
+            "Only 2 is correct.", 
+            "Both 1 and 2 are correct.", 
+            "Both 1 and 2 are incorrect."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements is correct?\n  Change a reference changes the referent.\n  We can create an array of references.\n", 
+        "options": [
+            "Only 1 is correct.", 
+            "Only 2 is correct.", 
+            "Both 1 and 2 are correct.", 
+            "Both 1 and 2 are incorrect."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statement is correct about the references?", 
+        "options": [
+            "A reference must always be initialized within functions.", 
+            "A reference must always be initialized outside all functions.", 
+            "A reference must always be initialized.", 
+            "Both A and C."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "A reference is declared using the _____ symbol.", 
+        "options": [
+            "&&", 
+            "&", 
+            "||", 
+            "!"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "Once a reference variable has been defined to refer to a particular variable it can refer\nto any other variable.", 
+            "A reference is indicated by using && operator.", 
+            "Once a reference variable has been defined to refer to a particular variable it cannot refer to any other variable.", 
+            "A reference can be declared beforehand and initialized later."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements is correct?\n  A reference is not a constant pointer.\n  A referenced is automatically de-referenced.\n", 
+        "options": [
+            "Only 1 is correct.", 
+            "Only 2 is correct.", 
+            "Both 1 and 2 are correct.", 
+            "Both 1 and 2 are incorrect."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements is correct?\n  An array of references is acceptable.\n  We can also create a reference to a reference.\n", 
+        "options": [
+            "Only 1 is correct.", 
+            "Only 2 is correct.", 
+            "Both 1 and 2 are correct.", 
+            "Both 1 and 2 are incorrect."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "A referenced has to be de-referenced to access a value.", 
+            "A referenced does not need to be de-referenced to access a value.", 
+            "A referenced has to be double de-referenced to access a value.", 
+            "Whether a reference should be de-referenced or not depends on the type of the reference."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statements is correct?\n  Once the variable and the reference are linked they are tied together.\n  Once the reference of a variable is declared another reference of that variable is not allowed.\n", 
+        "options": [
+            "Only 1 is correct.", 
+            "Only 2 is correct.", 
+            "Both 1 and 2 are correct.", 
+            "Both 1 and 2 are incorrect."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements is correct?\n  We can return a global variable by reference.\n  We cannot return a local variable by reference.\n", 
+        "options": [
+            "Only 1 is correct.", 
+            "Only 2 is correct.", 
+            "Both 1 and 2 are correct.", 
+            "Both 1 and 2 are incorrect."
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Reference is like a _____.", 
+        "options": [
+            "Pointer", 
+            "Structure", 
+            "Macro", 
+            "Enum"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "A reference is a constant pointer.", 
+            "A reference is not a constant pointer.", 
+            "An array of references is acceptable.", 
+            "It is possible to create a reference to a reference."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "A reference is declared using * operator.", 
+            "Once a reference variable has been defined to refer to a particular variable it can refer to any other variable.", 
+            "A reference must always be initialized within classes.", 
+            "A variable can have multiple references."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statement is correct?", 
+        "options": [
+            "An array of references is acceptable.", 
+            "Once a reference variable has been defined to refer to a particular variable it can refer to any other variable.", 
+            "An array of references is not acceptable.", 
+            "Reference is like a structure."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements is correct?\n  Pointer to a reference and reference to a pointer both are valid.\n  When we use reference, we are actually referring to a referent.\n", 
+        "options": [
+            "Only 1 is correct.", 
+            "Only 2 is correct.", 
+            "Both 1 and 2 are correct.", 
+            "Both 1 and 2 are incorrect."
+        ], 
+        "ans": "C"
+    }
+]

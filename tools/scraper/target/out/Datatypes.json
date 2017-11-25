@@ -1,0 +1,181 @@
+[
+    {
+        "q": "Which of the following statements are correct about data types?\nIf the integer literal exceeds the range of byte, a compilation error will occur.\nWe cannot implicitly convert non-literal numeric types of larger storage size to byte.\nByte cannot be implicitly converted to float.\nA char can be implicitly converted to only int data type.\nWe can cast the integral character codes.\n", 
+        "options": [
+            "1, 3, 5", 
+            "2, 4", 
+            "3, 5", 
+            "1, 2, 5"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following is an 8-byte Integer?", 
+        "options": [
+            "Char", 
+            "Long", 
+            "Short", 
+            "Byte", 
+            "Integer"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following is NOT an Integer?", 
+        "options": [
+            "Char", 
+            "Byte", 
+            "Integer", 
+            "Short", 
+            "Long"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements is correct?", 
+        "options": [
+            "Information is never lost during narrowing conversions.", 
+            "The CInteger() function can be used to convert a Single to an Integer.", 
+            "Widening conversions take place automatically.", 
+            "Assigning an Integer to an Object type is known as Unboxing.", 
+            "3.14 can be treated as Decimal by using it in the form 3.14F."
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following are value types?\nInteger\nArray\nSingle\nString\nLong\n", 
+        "options": [
+            "1, 2, 5", 
+            "1, 3, 5", 
+            "2, 4", 
+            "3, 5"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following does not store a sign?", 
+        "options": [
+            "Short", 
+            "Integer", 
+            "Long", 
+            "Byte", 
+            "Single"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "What is the size of a Decimal?", 
+        "options": [
+            "4 byte", 
+            "8 byte", 
+            "16 byte", 
+            "32 byte"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "What will be the output of the following code snippet when it is executed?\n    int x = 1; \n    float y = 1.1f;\n    short z = 1;\n    Console.WriteLine((float) x + y * z - (x += (short) y));", 
+        "options": [
+            "0.1", 
+            "1.0", 
+            "1.1", 
+            "11"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements is correct about the C#.NET code snippet given below?\nshort s1 = 20;\nshort s2 = 400;\nint a;\na = s1 * s2;", 
+        "options": [
+            "A value 8000 will be assigned to a.", 
+            "A negative value will be assigned to a.", 
+            "During arithmetic if the result exceeds the high or low value of the range the value wraps around till the other side of the range.", 
+            "An error is reported as widening conversion cannot takes place.", 
+            "An overflow error will be reported since the result of the multiplication exceeds the range of a Short Integer."
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following is the correct size of a Decimal datatype?", 
+        "options": [
+            "8 Bytes", 
+            "4 Bytes", 
+            "10 Bytes", 
+            "16 Bytes", 
+            "None of the above."
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Which of the following statements are correct?\nWe can assign values of any type to variables of type object.\nWhen a variable of a value type is converted to object, it is said to be unboxed.\nWhen a variable of type object is converted to a value type, it is said to be boxed.\nBoolean variable cannot have a value of null.\nWhen a value type is boxed, an entirely new object must be allocated and constructed.\n", 
+        "options": [
+            "2, 5", 
+            "1, 5", 
+            "3, 4", 
+            "2, 3"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following is the correct ways to set a value 3.14 in a variable pi such that it cannot be modified?", 
+        "options": [
+            "float pi = 3.14F;", 
+            "#define pi 3.14F;", 
+            "const float pi = 3.14F;", 
+            "const float pi; pi = 3.14F;", 
+            "pi = 3.14F;"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following statements are correct about data types?\nEach value type has an  implicit default constructor that initializes the default value of that type.\nIt is possible for a value type to contain the null value.\nAll value types are derived implicitly from System.ValueType class.\nIt is not essential that local variables in C# must be initialized before being used.\nVariables of reference types referred to as objects and store references to the actual data.\n", 
+        "options": [
+            "1, 3, 5", 
+            "2, 4", 
+            "3, 5", 
+            "2, 3, 4"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following are the correct way to initialise the variables i and j to a value 10 each?\nint i = 10; int j = 10;\nint i, j;\ni = 10 : j = 10;\nint i = 10, j = 10;\nint i, j = 10;\nint i = j = 10;\n", 
+        "options": [
+            "2, 4", 
+            "1, 3", 
+            "3, 5", 
+            "4, 5"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following statement correctly assigns a value 33 to a variable c?\nbyte a = 11, b = 22, c;", 
+        "options": [
+            "c = (byte) (a + b);", 
+            "c = (byte) a + (byte) b;", 
+            "c = (int) a + (int) b;", 
+            "c = (int)(a + b);", 
+            "c = a + b;"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following statements are correct about datatypes in C#.NET?\nEvery datatype is either a value type or a reference type.\nValue types are always created on the heap.\nReference types are always created on the stack.\nMapping of every value type to a type in Common Type System facilitates Interoperability in C#.NET.\nEvery reference type gets mapped to a type in Common Type System.\n", 
+        "options": [
+            "1, 3", 
+            "2, 5", 
+            "1, 4", 
+            "3, 4"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "Which of the following is the correct default value of a Boolean type?", 
+        "options": [
+            "0\u00a0", 
+            "1", 
+            "True", 
+            "False", 
+            "-1"
+        ], 
+        "ans": "D"
+    }
+]

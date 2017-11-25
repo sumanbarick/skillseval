@@ -1,0 +1,37 @@
+<div id="topicTemplate">
+    <!-- <div data-ng-include="'subheader.html'"></div> -->
+
+    <div class="heading" data-ng-if="vm.topics.mighty">Select a Quick Exam</div>
+
+    <div class="mighty-quick-exams" data-ng-if="vm.topics.mighty">
+        <div data-ng-repeat="qe in vm.quickExams" class="lib-card col-xs-12 col-sm-4 col-md-2">
+            <div class="inner-container" data-ng-click="vm.startExam(qe)">
+                <label class="title font-aldrich" data-ng-bind="qe.subType"></label>
+                <div class="noOfQstn-info exam-info">
+                    <span><b>Questions: </b></span>
+                    <span>{{qe.noOfQuestions}}</span>
+                </div>
+                <div class="time-info exam-info">
+                    <span><b>Time: </b></span>
+                    <span>{{qe.totalTime}}</span>
+                </div>
+
+                <!-- <a href="javascript:void(0)" data-ng-click="vm.startExam(qe)" class="button font-electrolize">START</a> -->
+            </div>      
+        </div>
+        <div class="lib-card col-xs-12 col-sm-4 col-md-2">
+            <div class="inner-container" data-ng-click="vm.startCustomExam()">
+                <label class="title font-aldrich">Custom</label>
+                <div class="noOfQstn-info exam-info">
+                    <span><b>Questions: </b></span>
+                    <span><u>Edit</u></span>
+                </div>
+                <div class="time-info exam-info">
+                    <span><b>Time: </b></span>
+                    <span><u>Edit</u></span>
+                </div>
+                <!-- <a href="javascript:void(0)" data-ng-click="vm.startCustomExam()" class="button font-electrolize">START</a> -->
+            </div>      
+        </div>
+    </div>
+</div>

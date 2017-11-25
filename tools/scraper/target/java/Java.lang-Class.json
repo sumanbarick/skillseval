@@ -1,0 +1,42 @@
+[
+    {
+        "q": "What is the value of \"d\" after this line of code has been executed?\ndouble d = Math.round ( 2.5 + Math.random() );", 
+        "options": [
+            "2", 
+            "3", 
+            "4", 
+            "2.5"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "Which of the following would compile without error?", 
+        "options": [
+            "int a = Math.abs(-5);", 
+            "int b = Math.abs(5.0);", 
+            "int c = Math.abs(5.5F);", 
+            "int d = Math.abs(5L);"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "Which of the following are valid calls to Math.max?\n\nMath.max(1,4)\nMath.max(2.3, 5)\nMath.max(1, 3, 5, 7)\nMath.max(-1.5, -2.8f)\n", 
+        "options": [
+            "1, 2 and 4", 
+            "2, 3 and 4", 
+            "1, 2 and 3", 
+            "3 and 4"
+        ], 
+        "ans": "A"
+    }, 
+    {
+        "q": "public class Myfile \n{ \n    public static void main (String[] args) \n    {\n        String biz = args[1]; \n        String baz = args[2]; \n        String rip = args[3]; \n        System.out.println(\"Arg is \" + rip); \n    } \n}\n\nSelect how you would start the program to cause it to print: Arg is 2", 
+        "options": [
+            "java Myfile 222", 
+            "java Myfile 1 2 2 3 4", 
+            "java Myfile 1 3 2 2", 
+            "java Myfile 0 1 2 3"
+        ], 
+        "ans": "C"
+    }
+]

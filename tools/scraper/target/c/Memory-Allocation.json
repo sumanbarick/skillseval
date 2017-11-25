@@ -1,0 +1,42 @@
+[
+    {
+        "q": "Which header file should be included to use functions like malloc() and calloc()?", 
+        "options": [
+            "memory.h", 
+            "stdlib.h", 
+            "string.h", 
+            "dos.h"
+        ], 
+        "ans": "B"
+    }, 
+    {
+        "q": "What function should be used to free the memory allocated by calloc() ?", 
+        "options": [
+            "dealloc();", 
+            "malloc(variable_name, 0)", 
+            "free();", 
+            "memalloc(variable_name, 0)"
+        ], 
+        "ans": "C"
+    }, 
+    {
+        "q": "How will you free the memory allocated by the following program?\n#include<stdio.h>\n#include<stdlib.h>\n#define MAXROW 3\n#define MAXCOL 4\n\nint main()\n{\n    int **p, i, j;\n    p = (int **) malloc(MAXROW * sizeof(int*));\n    return 0;\n}\n", 
+        "options": [
+            "memfree(int p);", 
+            "dealloc(p);", 
+            "malloc(p, 0);", 
+            "free(p);"
+        ], 
+        "ans": "D"
+    }, 
+    {
+        "q": "Specify the 2 library functions to dynamically allocate memory?", 
+        "options": [
+            "malloc() and memalloc()", 
+            "alloc() and memalloc()", 
+            "malloc() and calloc()", 
+            "memalloc() and faralloc()"
+        ], 
+        "ans": "C"
+    }
+]
