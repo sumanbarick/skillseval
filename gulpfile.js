@@ -6,8 +6,6 @@ var gulp  = require('gulp'),
 
 //Now requiring custom modules
 var dataProcessor = require('./tools/node-tools/data-processor/process');
-
-
  
 gulp.task('concatScripts', function() {
   return gulp.src([
@@ -35,6 +33,6 @@ gulp.task('createTemplateCache', function () {
 
 // create a default task and just log a message
 gulp.task('default', ['concatScripts', 'createTemplateCache'], function () {
-    dataProcessor.start();
+    //dataProcessor.start();
     console.log("Gulping Done...");
 });

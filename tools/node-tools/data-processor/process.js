@@ -12,11 +12,12 @@ module.exports = {
     start: start
 };
 
+
 function start() {
     console.log("Data Processing start...");
-    
+
     var filelist, 
-        src = "/media/lubuntu/Study/Codes/bitbucket/skillseval/skillseval/skillseval/www/devData";
+        src = "./www/devData";
 
     filelist = walkSync(src, filelist);
     processData(filelist);
@@ -269,7 +270,8 @@ function decryptKey (key) {
 }
 
 
-start();
+//Don't start automatically as it is a gulp used module now...
+//start();
 
 // console.log(walkSync(src, filelist));/
 
