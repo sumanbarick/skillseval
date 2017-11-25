@@ -8,7 +8,13 @@ var AES = require("crypto-js/aes")
 const key = "_S6h1K!N8c$7FkM-W#92yTix$@X9sZ";
 var resultantFileList = [];
 
+module.exports = {
+    start: start
+};
+
 function start() {
+    console.log("Data Processing start...");
+    
     var filelist, 
         src = "/media/lubuntu/Study/Codes/bitbucket/skillseval/skillseval/skillseval/www/devData";
 

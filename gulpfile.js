@@ -3,6 +3,11 @@ var gulp  = require('gulp'),
     uglify = require('gulp-uglify'),
     javascriptObfuscator = require('gulp-javascript-obfuscator'),
     templateCache = require('gulp-angular-templatecache');
+
+//Now requiring custom modules
+var dataProcessor = require('./tools/node-tools/data-processor/process');
+
+
  
 gulp.task('concatScripts', function() {
   return gulp.src([
@@ -30,5 +35,6 @@ gulp.task('createTemplateCache', function () {
 
 // create a default task and just log a message
 gulp.task('default', ['concatScripts', 'createTemplateCache'], function () {
-    console.log("Done...");
+    dataProcessor.start();
+    console.log("Gulping Done...");
 });
