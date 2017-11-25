@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="knexaa-arts.svg"
+   inkscape:export-filename="/home/lubuntu/Desktop/knexaa-logo-2.png"
+   inkscape:export-xdpi="16.117088"
+   inkscape:export-ydpi="16.117088">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4555">
+      <stop
+         style="stop-color:#4b00ff;stop-opacity:0"
+         offset="0"
+         id="stop4557" />
+      <stop
+         style="stop-color:#4b00ff;stop-opacity:0;"
+         offset="1"
+         id="stop4559" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4541"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4543"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4537"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4539"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4284"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4278"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4275"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4263">
+      <stop
+         style="stop-color:#280b0b;stop-opacity:1;"
+         offset="0"
+         id="stop4265" />
+      <stop
+         style="stop-color:#280b0b;stop-opacity:0;"
+         offset="1"
+         id="stop4267" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5618">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop5620" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:0;"
+         offset="1"
+         id="stop5622" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5602">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5604" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5606" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5596"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5598" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient5608"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient5770"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient5788"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient5790"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient5883"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient5885"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient4747"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient4749"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient4859"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient4861"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient4227"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient4229"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient4231"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient4233"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient4253"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient4255"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient4257"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient4259"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4263"
+       id="linearGradient4269"
+       x1="-925.71429"
+       y1="1028.6479"
+       x2="-228.57141"
+       y2="1031.5051"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4555"
+       id="linearGradient4561"
+       x1="-270.24295"
+       y1="1638.4087"
+       x2="-401.32745"
+       y2="1371.7285"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0000011,0,0,0.99703114,9.7397286e-4,2.6994505)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="linearGradient4571"
+       x1="-1206.5857"
+       y1="1254.1071"
+       x2="-1324.7679"
+       y2="1306.6577"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5916685,0,0,1.7821148,1684.5568,-3990.3966)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="linearGradient4575"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5916685,0,0,1.7821148,3542.2938,-1064.0887)"
+       x1="-1206.5857"
+       y1="1254.1071"
+       x2="-1324.7679"
+       y2="1306.6577" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient4378"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient4380"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5618"
+       id="radialGradient4339"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2273989,0.00951472,-0.00116394,0.27247796,-497.29533,140.13345)"
+       cx="405.34964"
+       cy="197.91873"
+       fx="405.34964"
+       fy="197.91873"
+       r="300.28658" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5602"
+       id="linearGradient4341"
+       gradientUnits="userSpaceOnUse"
+       x1="104.56307"
+       y1="197.91873"
+       x2="706.13623"
+       y2="197.91873" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.29857056"
+     inkscape:cx="-631.42363"
+     inkscape:cy="891.71576"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     borderlayer="false"
+     showborder="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <g
+       id="g4863"
+       transform="translate(-20.000001,-51.428567)">
+      <flowRoot
+         transform="matrix(1,0,0,0.70318926,-837.40928,579.60155)"
+         xml:space="preserve"
+         id="flowRoot4144"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#6767e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+           style="fill:url(#radialGradient5770);fill-opacity:1;stroke:url(#linearGradient5608)"
+           id="flowRegion4146"><rect
+             id="rect4148"
+             width="881.11633"
+             height="296.05515"
+             x="85.523651"
+             y="29.349129"
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#6767e6;fill-opacity:1;stroke:none;stroke-opacity:1" /></flowRegion><flowPara
+           id="flowPara4150"
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#6767e6;fill-opacity:1;stroke:none;stroke-opacity:1">nexaa</flowPara></flowRoot>      <g
+         id="g4840">
+        <circle
+           style="opacity:1;fill:#4b00ff;fill-opacity:1;stroke:#4b00ff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4751"
+           cx="-853.71423"
+           cy="693.79083"
+           r="112.85714" />
+        <flowRoot
+           transform="matrix(1,0,0,0.70318926,-1043.486,555.63138)"
+           xml:space="preserve"
+           id="flowRoot4739"
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           inkscape:transform-center-x="-620"
+           inkscape:transform-center-y="-17.142857"><flowRegion
+             style="fill:url(#radialGradient4747);fill-opacity:1;stroke:url(#linearGradient4749)"
+             id="flowRegion4741"><rect
+               id="rect4743"
+               width="881.11633"
+               height="296.05515"
+               x="85.523651"
+               y="29.349129"
+               style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" /></flowRegion><flowPara
+             id="flowPara4745"
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1">K</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="matrix(0.72392613,0,0,1.3405756,-803.31953,-31.972149)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6767e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5626"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5628"><rect
+             style="fill:#6767e6;fill-opacity:1"
+             y="592.36218"
+             x="85.714287"
+             height="88.571411"
+             width="817.14288"
+             id="rect5630" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:45px;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';fill:#6767e6;fill-opacity:1"
+           id="flowPara5632">Knowledge. Exam. Anytime. Anywhere.</flowPara></flowRoot>    </g>
+    <flowRoot
+       transform="translate(-1003.9199,111.71428)"
+       xml:space="preserve"
+       id="flowRoot5772"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#6767e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         style="fill:url(#radialGradient5788);fill-opacity:1;stroke:url(#linearGradient5790)"
+         id="flowRegion5774"><rect
+           id="rect5776"
+           width="881.11633"
+           height="296.05515"
+           x="85.523651"
+           y="29.349129"
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#6767e6;fill-opacity:1;stroke:none;stroke-opacity:1" /></flowRegion><flowPara
+         id="flowPara5778"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#6767e6;fill-opacity:1;stroke:none;stroke-opacity:1">Knexaa</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.94390802,0,0,1,-980.84228,-208.57143)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6767e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot5780"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5782"><rect
+           style="fill:#6767e6;fill-opacity:1"
+           y="592.36218"
+           x="85.714287"
+           height="88.571411"
+           width="817.14288"
+           id="rect5784" /></flowRegion><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:45px;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Italic Condensed';fill:#0000ff;fill-opacity:1"
+         id="flowPara5786">Knowledge. Exam. Anytime. Anywhere.</flowPara></flowRoot>    <g
+       id="g5933"
+       inkscape:export-filename="/home/lubuntu/Desktop/knexaa-logo-2.png"
+       inkscape:export-xdpi="47.126495"
+       inkscape:export-ydpi="47.126495">
+      <flowRoot
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#6767e6;fill-opacity:1;stroke:#6767e6;stroke-width:5.96257544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowRoot5867"
+         xml:space="preserve"
+         transform="matrix(1,0,0,0.70318926,-101.06279,536.4587)"><flowRegion
+           id="flowRegion5869"
+           style="fill:url(#radialGradient5883);fill-opacity:1;stroke:url(#linearGradient5885)"><rect
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#6767e6;fill-opacity:1;stroke:#6767e6;stroke-width:5.96257544;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             y="29.349129"
+             x="85.523651"
+             height="296.05515"
+             width="881.11633"
+             id="rect5871" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:222.04130554px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L';fill:none;fill-opacity:1;stroke:#6767e6;stroke-width:5.96257544;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="flowPara5873">Knexaa</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot5875"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6767e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="matrix(0.76523565,0,0,1.0337927,-66.261639,108.27932)"><flowRegion
+           id="flowRegion5877"><rect
+             id="rect5879"
+             width="1057.4644"
+             height="72.488907"
+             x="85.714287"
+             y="592.36218"
+             style="fill:#6767e6;fill-opacity:1" /></flowRegion><flowPara
+           id="flowPara5881"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33849335px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#6767e6;fill-opacity:1">Knowledge. Exam. Anytime. Anywhere.</flowPara></flowRoot>    </g>
+    <g
+       id="g4359">
+      <circle
+         style="opacity:1;fill:#4b00ff;fill-opacity:1;stroke:#4b00ff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4849"
+         cx="-1190.8571"
+         cy="488.07654"
+         r="112.85714" />
+      <flowRoot
+         transform="matrix(1,0,0,0.70318926,-1380.6289,349.91709)"
+         xml:space="preserve"
+         id="flowRoot4851"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:transform-center-x="-620"
+         inkscape:transform-center-y="-17.142857"><flowRegion
+           style="fill:url(#radialGradient4859);fill-opacity:1;stroke:url(#linearGradient4861)"
+           id="flowRegion4853"><rect
+             id="rect4855"
+             width="881.11633"
+             height="296.05515"
+             x="85.523651"
+             y="29.349129"
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1" /></flowRegion><flowPara
+           id="flowPara4857"
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1">K</flowPara></flowRoot>      <flowRoot
+         inkscape:transform-center-y="-17.142857"
+         inkscape:transform-center-x="-620"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4311"
+         xml:space="preserve"
+         transform="matrix(1,0,0,0.70318926,-1380.6289,349.91709)"><flowRegion
+           id="flowRegion4313"
+           style="fill:url(#radialGradient4859);fill-opacity:1;stroke:url(#linearGradient4861)"><rect
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1"
+             y="29.349129"
+             x="85.523651"
+             height="296.05515"
+             width="881.11633"
+             id="rect4315" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1"
+           id="flowPara4317">K</flowPara></flowRoot>    </g>
+    <rect
+       style="opacity:1;fill:#500050;fill-opacity:1;fill-rule:nonzero;stroke:#4b00ff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4265"
+       width="760"
+       height="420"
+       x="-1754.2858"
+       y="-144.78065" />
+    <g
+       id="g4286"
+       inkscape:export-filename="/home/lubuntu/Desktop/knexaa-white.png"
+       inkscape:export-xdpi="34.920269"
+       inkscape:export-ydpi="34.920269">
+      <flowRoot
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4199"
+         xml:space="preserve"
+         transform="matrix(1,0,0,0.70318926,-488.83781,-66.112734)"><flowRegion
+           id="flowRegion4201"
+           style="fill:url(#radialGradient4227);fill-opacity:1;stroke:url(#linearGradient4229)"><rect
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+             y="29.349129"
+             x="85.523651"
+             height="296.05515"
+             width="881.11633"
+             id="rect4203" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="flowPara4205">nexaa</flowPara></flowRoot>      <circle
+         style="opacity:1;fill:#4b00ff;fill-opacity:1;stroke:#4b00ff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4209"
+         cx="-505.14276"
+         cy="48.076553"
+         r="112.85714" />
+      <flowRoot
+         transform="matrix(1,0,0,0.70318926,-694.91453,-90.0829)"
+         xml:space="preserve"
+         id="flowRoot4211"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         inkscape:transform-center-x="-620"
+         inkscape:transform-center-y="-17.142857"><flowRegion
+           style="fill:url(#radialGradient4231);fill-opacity:1;stroke:url(#linearGradient4233)"
+           id="flowRegion4213"><rect
+             id="rect4215"
+             width="881.11633"
+             height="296.05515"
+             x="85.523651"
+             y="29.349129"
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1;" /></flowRegion><flowPara
+           id="flowPara4217"
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1;">K</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4219"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="matrix(0.72392613,0,0,1.3405756,-454.74806,-677.68643)"><flowRegion
+           id="flowRegion4221"><rect
+             id="rect4223"
+             width="817.14288"
+             height="88.571411"
+             x="85.714287"
+             y="592.36218"
+             style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+           id="flowPara4225"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:45px;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';fill:#ffffff;fill-opacity:1">Knowledge. Exam. Anytime. Anywhere.</flowPara></flowRoot>    </g>
+    <g
+       id="g4322">
+      <rect
+         y="909.50433"
+         x="-1631.4293"
+         height="877.38739"
+         width="1411.4301"
+         id="rect4216"
+         style="opacity:1;fill:url(#linearGradient4561);fill-opacity:1;fill-rule:evenodd;stroke:#4b00ff;stroke-width:0.99851501;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         transform="matrix(0.99999456,-0.00329699,-0.00262995,-0.99999654,0,0)"
+         y="-1780.1274"
+         x="-453.85468"
+         height="630.07281"
+         width="225.09593"
+         id="rect4563"
+         style="opacity:1;fill:url(#linearGradient4571);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.56156933;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="915.79077"
+         x="-1625.7142"
+         height="231.42857"
+         width="1397.1428"
+         id="rect4261"
+         style="opacity:1;fill:url(#linearGradient4269);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:47.70000076;stroke-opacity:1" />
+      <g
+         id="g4223"
+         transform="matrix(0.71173477,0,0,0.71173477,-913.63529,521.02804)">
+        <flowRoot
+           transform="matrix(1,0,0,0.70318926,-837.40928,579.60155)"
+           xml:space="preserve"
+           id="flowRoot4225"
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#6767e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+             style="fill:url(#radialGradient4253);fill-opacity:1;stroke:url(#linearGradient4255)"
+             id="flowRegion4227"><rect
+               id="rect4229"
+               width="881.11633"
+               height="296.05515"
+               x="85.523651"
+               y="29.349129"
+               style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#6767e6;fill-opacity:1;stroke:none;stroke-opacity:1" /></flowRegion><flowPara
+             id="flowPara4231"
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#6767e6;fill-opacity:1;stroke:none;stroke-opacity:1">nexaa</flowPara></flowRoot>        <g
+           id="g4233">
+          <circle
+             style="opacity:1;fill:#4b00ff;fill-opacity:1;stroke:#4b00ff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="circle4235"
+             cx="-853.71423"
+             cy="693.79083"
+             r="112.85714" />
+          <flowRoot
+             transform="matrix(1,0,0,0.70318926,-1043.486,555.63138)"
+             xml:space="preserve"
+             id="flowRoot4237"
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             inkscape:transform-center-x="-620"
+             inkscape:transform-center-y="-17.142857"><flowRegion
+               style="fill:url(#radialGradient4257);fill-opacity:1;stroke:url(#linearGradient4259)"
+               id="flowRegion4239"><rect
+                 id="rect4241"
+                 width="881.11633"
+                 height="296.05515"
+                 x="85.523651"
+                 y="29.349129"
+                 style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" /></flowRegion><flowPara
+               id="flowPara4243"
+               style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1">K</flowPara></flowRoot>        </g>
+        <flowRoot
+           transform="matrix(0.72392613,0,0,1.3405756,-803.31953,-31.972149)"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6767e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="flowRoot4245"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4247"><rect
+               style="fill:#6767e6;fill-opacity:1"
+               y="592.36218"
+               x="85.714287"
+               height="88.571411"
+               width="817.14288"
+               id="rect4249" /></flowRegion><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:45px;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';fill:#6767e6;fill-opacity:1"
+             id="flowPara4251">Knowledge. Exam. Anytime. Anywhere.</flowPara></flowRoot>      </g>
+      <rect
+         style="opacity:1;fill:url(#linearGradient4575);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.56156933;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4573"
+         width="225.09593"
+         height="630.07281"
+         x="1403.8823"
+         y="1146.1803"
+         transform="matrix(-0.99999456,0.00329699,0.00262995,0.99999654,0,0)" />
+    </g>
+    <circle
+       r="310.91586"
+       cy="1469.5878"
+       cx="-925.71429"
+       id="circle4387"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.94210523;stroke:#4b00ff;stroke-width:13.77475357;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.08947369" />
+    <circle
+       style="opacity:1;fill:#4b00ff;fill-opacity:1;stroke:#4b00ff;stroke-width:13.77475357;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.08947369"
+       id="circle4368"
+       cx="-925.71429"
+       cy="1469.5878"
+       r="310.91586" />
+    <flowRoot
+       transform="matrix(2.7549508,0,0,1.9372518,-1448.5264,1088.9653)"
+       xml:space="preserve"
+       id="flowRoot4370"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="-620"
+       inkscape:transform-center-y="-17.142857"><flowRegion
+         style="fill:url(#radialGradient4378);fill-opacity:1;stroke:url(#linearGradient4380)"
+         id="flowRegion4372"><rect
+           id="rect4374"
+           width="881.11633"
+           height="296.05515"
+           x="85.523651"
+           y="29.349129"
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1" /></flowRegion><flowPara
+         id="flowPara4376"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1">K</flowPara></flowRoot>    <g
+       id="g4356"
+       inkscape:export-filename="/home/lubuntu/Desktop/for-favicon.png"
+       inkscape:export-xdpi="48.90836"
+       inkscape:export-ydpi="48.90836">
+      <circle
+         r="180.02963"
+         cy="590.22992"
+         cx="-1607.0984"
+         id="circle4321"
+         style="opacity:1;fill:#4b00ff;fill-opacity:1;stroke:#4b00ff;stroke-width:7.97599649;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         inkscape:transform-center-y="-21.555045"
+         inkscape:transform-center-x="-779.5742"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:98.68502808px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4323"
+         xml:space="preserve"
+         transform="matrix(2.0057682,0,0,1.4104347,-2001.7367,313.11411)"><flowRegion
+           id="flowRegion4325"
+           style="fill:url(#radialGradient4339);fill-opacity:1;stroke:url(#linearGradient4341)"><rect
+             style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1"
+             y="29.349129"
+             x="85.523651"
+             height="296.05515"
+             width="881.11633"
+             id="rect4327" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.04130554px;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1"
+           id="flowPara4329">K</flowPara></flowRoot>    </g>
+  </g>
+</svg>

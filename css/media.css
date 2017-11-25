@@ -1,0 +1,85 @@
+
+/***************************************************************
+* MEDIA QUERIES START HERE
+***************************************************************/
+@media (max-width: 767px) {
+    body {
+        background-position: -385px 0;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .header .share-btn {
+        display: inline-block;
+        float: right;
+        margin-right: 15px;
+        margin-top: 20px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .header .social-icon-group {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: -10px;
+    }
+
+    .header .social-icon-group.show-now {
+        display: block;
+        z-index: 9999;
+        padding: 3.5px 10px;
+        background: #8383eb;
+        width: 100%;
+        margin: 0;
+        right: 0;
+        top: 80px;
+        color: #2200ca;
+        background: -webkit-linear-gradient(left, #6767E6, #fff, #6767E6);
+        background: -o-linear-gradient(right, #6767E6, #fff, #6767E6);
+        background: -moz-linear-gradient(right, #6767E6, #fff, #6767E6);
+        background: linear-gradient(to right, #6767E6, #fff, #6767E6);
+    }
+
+    #certificate-body .certificate-heading {
+        font-size: 30px;
+    }
+
+    #certificate-body .cert-text {
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+
+    #certificate-body .cert-line-1 {
+        margin: 25px 0 10px 0;
+    }
+
+    #certificate-body .cert-line-2 {
+        margin: 10px 0;
+    }
+
+    #certificate-body .student-name {
+        font-size: 20px;
+    }
+
+    #certificate-body .exam-name {
+        font-size: 18px;
+    }
+
+    #certificate-body .cert-date {
+        font-size: 14px;    
+    }
+
+    #certificate-body .site-name {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #191970;
+    }
+
+    #certificate-body .cert-code {
+        margin-top: 30px;
+        font-size: 9px;
+    }
+}
+/************* END OF MEDIA QUERIES ***************************/
